@@ -1,0 +1,9 @@
+{
+  "name": "vgc-calc-bridge",
+  "version": "1.0.0",
+  "description": "Node.js bridge for @smogon/calc damage calculations",
+  "main": "calc_bridge.js",
+  "dependencies": {
+    "@smogon/calc": "latest"
+  }
+}

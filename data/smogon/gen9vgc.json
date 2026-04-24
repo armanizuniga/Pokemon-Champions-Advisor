@@ -1,0 +1,4101 @@
+{
+  "Blastoise": [
+    {
+      "name": "UU Shell Smash",
+      "nature": "Modest",
+      "ability": "Torrent",
+      "item": "White Herb",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Shell Smash",
+        "Surf",
+        "Ice Beam",
+        "Tera Blast"
+      ]
+    },
+    {
+      "name": "Almost Any Ability Showdown Usage",
+      "nature": "Mild",
+      "ability": "Primordial Sea",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Rapid Spin",
+        "Shell Smash",
+        "Earthquake",
+        "Weather Ball"
+      ]
+    }
+  ],
+  "Beedrill": [
+    {
+      "name": "National Dex UU Please Don't Use Mega Beedrill",
+      "nature": "Jolly",
+      "ability": "Adaptability",
+      "item": "Beedrillite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "U-turn",
+        "Poison Jab",
+        "Drill Run",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "National Dex Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Swarm",
+      "item": "Beedrillite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Poison Jab",
+        "U-turn",
+        "Drill Run",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Swarm",
+      "item": "Beedrillite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Poison Jab",
+        "U-turn",
+        "Drill Run",
+        "Knock Off"
+      ]
+    }
+  ],
+  "Pidgeot": [
+    {
+      "name": "National Dex RU Offensive Pivot",
+      "nature": "Timid",
+      "ability": "Big Pecks",
+      "item": "Pidgeotite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "U-turn",
+        "Hurricane",
+        "Heat Wave",
+        "Roost"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Bird Jesus (Normal)",
+      "nature": "Timid",
+      "ability": "Tangled Feet",
+      "item": "Pidgeotite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Hurricane",
+        "Heat Wave",
+        "Roost",
+        "Toxic"
+      ]
+    }
+  ],
+  "Pikachu": [
+    {
+      "name": "NFE Special Attacker",
+      "nature": "Timid",
+      "ability": "Lightning Rod",
+      "item": "Light Ball",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Thunderbolt",
+        "Surf",
+        "Volt Switch",
+        "Knock Off"
+      ]
+    }
+  ],
+  "Clefable": [
+    {
+      "name": "VGC 2025 Reg I Redirection Support",
+      "nature": "Calm",
+      "ability": "Unaware",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 172,
+        "spa": 0,
+        "spd": 84,
+        "spe": 0
+      },
+      "moves": [
+        "Moonblast",
+        "Follow Me",
+        "Protect",
+        "Life Dew"
+      ]
+    }
+  ],
+  "Arcanine": [
+    {
+      "name": "NU Curse Sweeper",
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Flare Blitz",
+        "Extreme Speed",
+        "Crunch"
+      ]
+    },
+    {
+      "name": "PU Curse",
+      "nature": "Adamant",
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 160,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 96
+      },
+      "moves": [
+        "Curse",
+        "Extreme Speed",
+        "Flare Blitz",
+        "Morning Sun"
+      ]
+    }
+  ],
+  "Alakazam": [
+    {
+      "name": "National Dex UU Nasty Plot",
+      "nature": "Timid",
+      "ability": "Magic Guard",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Nasty Plot",
+        "Psychic",
+        "Focus Blast",
+        "Shadow Ball"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Focus Sash",
+      "nature": "Timid",
+      "ability": "Magic Guard",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Counter",
+        "Expanding Force",
+        "Dazzling Gleam",
+        "Focus Blast"
+      ]
+    },
+    {
+      "name": "National Dex Doubles Showdown Usage",
+      "nature": "Timid",
+      "ability": "Synchronize",
+      "item": "Alakazite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Expanding Force",
+        "Protect",
+        "Nasty Plot",
+        "Shadow Ball"
+      ]
+    }
+  ],
+  "Gengar": [
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Shadow Ball",
+        "Sludge Wave",
+        "Trick",
+        "Toxic Spikes"
+      ]
+    }
+  ],
+  "Kangaskhan": [
+    {
+      "name": "National Dex Doubles Seismic Toss",
+      "nature": "Adamant",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "evs": {
+        "hp": 212,
+        "atk": 44,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Fake Out",
+        "Seismic Toss",
+        "Sucker Punch",
+        "Low Kick"
+      ]
+    },
+    {
+      "name": "National Dex Doubles Setup Attacker",
+      "nature": "Jolly",
+      "ability": "Scrappy",
+      "item": "Kangaskhanite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Fake Out",
+        "Return",
+        "Sucker Punch",
+        "Power-Up Punch"
+      ]
+    }
+  ],
+  "Pinsir": [
+    {
+      "name": "National Dex Monotype Swords Dance (Bug)",
+      "nature": "Jolly",
+      "ability": "Moxie",
+      "item": "Pinsirite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Return",
+        "Quick Attack",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "National Dex Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Hyper Cutter",
+      "item": "Pinsirite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Quick Attack",
+        "Swords Dance",
+        "Frustration",
+        "Earthquake"
+      ]
+    }
+  ],
+  "Gyarados": [
+    {
+      "name": "UU Dragon Dance",
+      "nature": "Adamant",
+      "ability": "Moxie",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Dragon Dance",
+        "Waterfall",
+        "Scale Shot",
+        "Substitute"
+      ]
+    }
+  ],
+  "Ditto": [
+    {
+      "name": "VGC 2025 Reg I Focus Sash",
+      "nature": "Relaxed",
+      "ability": "Imposter",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Transform"
+      ]
+    }
+  ],
+  "Vaporeon": [
+    {
+      "name": "RU Defensive",
+      "nature": "Bold",
+      "ability": "Water Absorb",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Scald",
+        "Haze",
+        "Wish",
+        "Protect"
+      ]
+    },
+    {
+      "name": "NU Wish Passer",
+      "nature": "Bold",
+      "ability": "Water Absorb",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Scald",
+        "Wish",
+        "Protect",
+        "Flip Turn"
+      ]
+    },
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Bold",
+      "ability": "Water Absorb",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Wish",
+        "Protect",
+        "Flip Turn",
+        "Scald"
+      ]
+    }
+  ],
+  "Aerodactyl": [
+    {
+      "name": "National Dex UU Offensive",
+      "nature": "Adamant",
+      "ability": "Tough Claws",
+      "item": "Aerodactylite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stone Edge",
+        "Dual Wingbeat",
+        "Earthquake",
+        "Roost"
+      ]
+    },
+    {
+      "name": "National Dex UU Dragon Dance",
+      "nature": "Adamant",
+      "ability": "Tough Claws",
+      "item": "Aerodactylite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Dragon Dance",
+        "Stone Edge",
+        "Earthquake",
+        "Dual Wingbeat"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Offensive Utility (Flying)",
+      "nature": "Jolly",
+      "ability": "Tough Claws",
+      "item": "Aerodactylite",
+      "evs": {
+        "hp": 48,
+        "atk": 248,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 212
+      },
+      "moves": [
+        "Stone Edge",
+        "Earthquake",
+        "Ice Fang",
+        "Stealth Rock"
+      ]
+    }
+  ],
+  "Snorlax": [
+    {
+      "name": "NU CurseLax",
+      "nature": "Careful",
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 12,
+        "atk": 0,
+        "def": 244,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Body Slam",
+        "Crunch",
+        "Rest"
+      ]
+    },
+    {
+      "name": "PU Curse",
+      "nature": "Careful",
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 12,
+        "atk": 0,
+        "def": 244,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Body Slam",
+        "Heat Crash",
+        "Rest"
+      ]
+    },
+    {
+      "name": "Monotype Curse",
+      "nature": "Careful",
+      "ability": "Thick Fat",
+      "item": "Chesto Berry",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 8,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Rest",
+        "Body Slam",
+        "Heavy Slam"
+      ]
+    }
+  ],
+  "Typhlosion": [
+    {
+      "name": "ZU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Flash Fire",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Eruption",
+        "Fire Blast",
+        "Focus Blast",
+        "Scorching Sands"
+      ]
+    }
+  ],
+  "Azumarill": [
+    {
+      "name": "UU Belly Drum",
+      "nature": "Adamant",
+      "ability": "Huge Power",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Belly Drum",
+        "Play Rough",
+        "Liquidation",
+        "Aqua Jet"
+      ]
+    },
+    {
+      "name": "BSS Reg J Belly Drum",
+      "nature": "Adamant",
+      "ability": "Huge Power",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 244,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 12
+      },
+      "moves": [
+        "Belly Drum",
+        "Aqua Jet",
+        "Play Rough",
+        "Liquidation"
+      ]
+    }
+  ],
+  "Espeon": [
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Magic Bounce",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Psychic",
+        "Shadow Ball",
+        "Dazzling Gleam",
+        "Trick"
+      ]
+    }
+  ],
+  "Umbreon": [
+    {
+      "name": "OU Defensive",
+      "nature": "Calm",
+      "ability": "Inner Focus",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Foul Play",
+        "Wish",
+        "Protect",
+        "Thunder Wave"
+      ]
+    },
+    {
+      "name": "RU Wish Support",
+      "nature": "Calm",
+      "ability": "Inner Focus",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Foul Play",
+        "Wish",
+        "Toxic",
+        "Protect"
+      ]
+    },
+    {
+      "name": "BSS Reg J Wish Tank",
+      "nature": "Bold",
+      "ability": "Inner Focus",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Foul Play",
+        "Protect",
+        "Wish",
+        "Yawn"
+      ]
+    }
+  ],
+  "Forretress": [
+    {
+      "name": "RU Support",
+      "nature": "Relaxed",
+      "ability": "Sturdy",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 164,
+        "spa": 0,
+        "spd": 92,
+        "spe": 0
+      },
+      "moves": [
+        "Spikes",
+        "Body Press",
+        "Volt Switch",
+        "Gyro Ball"
+      ]
+    }
+  ],
+  "Steelix": [
+    {
+      "name": "National Dex RU Tank",
+      "nature": "Sassy",
+      "ability": "Sturdy",
+      "item": "Steelixite",
+      "evs": {
+        "hp": 252,
+        "atk": 32,
+        "def": 8,
+        "spa": 0,
+        "spd": 216,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Gyro Ball",
+        "Toxic"
+      ]
+    },
+    {
+      "name": "National Dex RU Curse",
+      "nature": "Brave",
+      "ability": "Sturdy",
+      "item": "Steelixite",
+      "evs": {
+        "hp": 252,
+        "atk": 200,
+        "def": 8,
+        "spa": 0,
+        "spd": 48,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Gyro Ball",
+        "Earthquake",
+        "Curse"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Curse (Ground)",
+      "nature": "Impish",
+      "ability": "Sturdy",
+      "item": "Steelixite",
+      "evs": {
+        "hp": 252,
+        "atk": 4,
+        "def": 0,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Heavy Slam",
+        "Rest",
+        "Sleep Talk"
+      ]
+    }
+  ],
+  "Scizor": [
+    {
+      "name": "OU Utility",
+      "nature": "Adamant",
+      "ability": "Technician",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 248,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Bullet Punch",
+        "U-turn",
+        "Knock Off",
+        "Defog"
+      ]
+    }
+  ],
+  "Heracross": [
+    {
+      "name": "National Dex UU Swords Dance",
+      "nature": "Adamant",
+      "ability": "Skill Link",
+      "item": "Heracronite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Close Combat",
+        "Rock Blast",
+        "Pin Missile"
+      ]
+    }
+  ],
+  "Houndoom": [
+    {
+      "name": "National Dex RU Nasty Plot",
+      "nature": "Timid",
+      "ability": "Flash Fire",
+      "item": "Houndoominite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Nasty Plot",
+        "Dark Pulse",
+        "Fire Blast",
+        "Sludge Bomb"
+      ]
+    }
+  ],
+  "Pelipper": [
+    {
+      "name": "VGC 2025 Reg I Weather Setter",
+      "nature": "Modest",
+      "ability": "Drizzle",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 4,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Hurricane",
+        "Weather Ball",
+        "Tailwind",
+        "Protect"
+      ]
+    }
+  ],
+  "Gardevoir": [
+    {
+      "name": "UU Choice Scarf",
+      "nature": "Modest",
+      "ability": "Trace",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Moonblast",
+        "Psychic Noise",
+        "Focus Blast",
+        "Healing Wish"
+      ]
+    },
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Trace",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Moonblast",
+        "Psychic",
+        "Trick",
+        "Healing Wish"
+      ]
+    },
+    {
+      "name": "BSS Reg J Bulky Offense",
+      "nature": "Bold",
+      "ability": "Trace",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 244,
+        "atk": 0,
+        "def": 244,
+        "spa": 0,
+        "spd": 0,
+        "spe": 20
+      },
+      "moves": [
+        "Moonblast",
+        "Mystical Fire",
+        "Will-O-Wisp",
+        "Psyshock"
+      ]
+    }
+  ],
+  "Sableye": [
+    {
+      "name": "National Dex Defensive",
+      "nature": "Impish",
+      "ability": "Prankster",
+      "item": "Sablenite",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Knock Off",
+        "Will-O-Wisp",
+        "Protect",
+        "Recover"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Calm Mind (Dark)",
+      "nature": "Bold",
+      "ability": "Prankster",
+      "item": "Sablenite",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Calm Mind",
+        "Recover",
+        "Will-O-Wisp",
+        "Hex"
+      ]
+    }
+  ],
+  "Aggron": [
+    {
+      "name": "National Dex RU Tank",
+      "nature": "Careful",
+      "ability": "Sturdy",
+      "item": "Aggronite",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Heavy Slam",
+        "Body Press",
+        "Toxic"
+      ]
+    },
+    {
+      "name": "National Dex RU Curse",
+      "nature": "Careful",
+      "ability": "Sturdy",
+      "item": "Aggronite",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Heavy Slam",
+        "Rest",
+        "Sleep Talk"
+      ]
+    },
+    {
+      "name": "National Dex UU Showdown Usage",
+      "nature": "Careful",
+      "ability": "Sturdy",
+      "item": "Aggronite",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Heavy Slam",
+        "Earthquake",
+        "Body Press",
+        "Stealth Rock"
+      ]
+    }
+  ],
+  "Medicham": [
+    {
+      "name": "National Dex All-Out Attacker",
+      "nature": "Jolly",
+      "ability": "Telepathy",
+      "item": "Medichamite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Fake Out",
+        "Close Combat",
+        "Zen Headbutt",
+        "Ice Punch"
+      ]
+    },
+    {
+      "name": "ZU Choice Item",
+      "nature": "Jolly",
+      "ability": "Pure Power",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Close Combat",
+        "Zen Headbutt",
+        "Ice Punch",
+        "Trick"
+      ]
+    }
+  ],
+  "Manectric": [
+    {
+      "name": "National Dex RU Offensive Pivot",
+      "nature": "Timid",
+      "ability": "Lightning Rod",
+      "item": "Manectite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Volt Switch",
+        "Thunderbolt",
+        "Overheat",
+        "Hidden Power Ice"
+      ]
+    },
+    {
+      "name": "National Dex UU Showdown Usage",
+      "nature": "Timid",
+      "ability": "Static",
+      "item": "Manectite",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Volt Switch",
+        "Thunderbolt",
+        "Hidden Power Ice",
+        "Overheat"
+      ]
+    }
+  ],
+  "Sharpedo": [
+    {
+      "name": "National Dex RU Offensive",
+      "nature": "Adamant",
+      "ability": "Speed Boost",
+      "item": "Sharpedonite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Crunch",
+        "Psychic Fangs",
+        "Close Combat",
+        "Protect"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Physical Attacker (Water)",
+      "nature": "Jolly",
+      "ability": "Speed Boost",
+      "item": "Sharpedonite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Protect",
+        "Crunch",
+        "Psychic Fangs",
+        "Destiny Bond"
+      ]
+    },
+    {
+      "name": "National Dex UU Showdown Usage",
+      "nature": "Adamant",
+      "ability": "Rough Skin",
+      "item": "Sharpedonite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Crunch",
+        "Psychic Fangs",
+        "Close Combat",
+        "Protect"
+      ]
+    }
+  ],
+  "Camerupt": [
+    {
+      "name": "ZU Specially Defensive",
+      "nature": "Calm",
+      "ability": "Solid Rock",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Lava Plume",
+        "Earth Power",
+        "Roar"
+      ]
+    },
+    {
+      "name": "National Dex Doubles Trick Room Attacker",
+      "nature": "Quiet",
+      "ability": "Magma Armor",
+      "item": "Cameruptite",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Heat Wave",
+        "Earth Power",
+        "Eruption",
+        "Protect"
+      ]
+    },
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Quiet",
+      "ability": "Magma Armor",
+      "item": "Cameruptite",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 8,
+        "spa": 252,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Earth Power",
+        "Fire Blast",
+        "Hidden Power Grass",
+        "Stealth Rock"
+      ]
+    }
+  ],
+  "Torkoal": [
+    {
+      "name": "VGC 2025 Reg I Trick Room Sweeper",
+      "nature": "Quiet",
+      "ability": "Drought",
+      "item": "Charcoal",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Eruption",
+        "Heat Wave",
+        "Earth Power",
+        "Protect"
+      ]
+    }
+  ],
+  "Altaria": [
+    {
+      "name": "National Dex Monotype Offensive Dragon Dance (Dragon)",
+      "nature": "Jolly",
+      "ability": "Natural Cure",
+      "item": "Altarianite",
+      "evs": {
+        "hp": 16,
+        "atk": 224,
+        "def": 16,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Return",
+        "Earthquake",
+        "Dragon Dance",
+        "Roost"
+      ]
+    }
+  ],
+  "Absol": [
+    {
+      "name": "National Dex RU Offensive",
+      "nature": "Jolly",
+      "ability": "Magic Bounce",
+      "item": "Absolite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Knock Off",
+        "Pursuit",
+        "Close Combat",
+        "Sucker Punch"
+      ]
+    },
+    {
+      "name": "National Dex RU Swords Dance",
+      "nature": "Jolly",
+      "ability": "Magic Bounce",
+      "item": "Absolite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Knock Off",
+        "Close Combat",
+        "Sucker Punch"
+      ]
+    }
+  ],
+  "Infernape": [
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Blaze",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Switcheroo",
+        "U-turn"
+      ]
+    }
+  ],
+  "Empoleon": [
+    {
+      "name": "RU Offensive",
+      "nature": "Modest",
+      "ability": "Competitive",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 144,
+        "atk": 0,
+        "def": 0,
+        "spa": 148,
+        "spd": 0,
+        "spe": 216
+      },
+      "moves": [
+        "Surf",
+        "Ice Beam",
+        "Grass Knot",
+        "Roost"
+      ]
+    },
+    {
+      "name": "RU Specially Defensive",
+      "nature": "Calm",
+      "ability": "Competitive",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Surf",
+        "Roost",
+        "Stealth Rock",
+        "Knock Off"
+      ]
+    },
+    {
+      "name": "BSS Reg J Stealth Rock Support",
+      "nature": "Calm",
+      "ability": "Competitive",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Yawn",
+        "Flash Cannon",
+        "Flip Turn"
+      ]
+    }
+  ],
+  "Bastiodon": [
+    {
+      "name": "NU Special Wall",
+      "nature": "Careful",
+      "ability": "Soundproof",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Body Press",
+        "Heavy Slam",
+        "Foul Play"
+      ]
+    }
+  ],
+  "Lopunny": [
+    {
+      "name": "National Dex Offensive",
+      "nature": "Jolly",
+      "ability": "Limber",
+      "item": "Lopunnite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Frustration",
+        "Close Combat",
+        "Fake Out",
+        "U-turn"
+      ]
+    },
+    {
+      "name": "National Dex Monotype All-Out Attacker",
+      "nature": "Jolly",
+      "ability": "Limber",
+      "item": "Lopunnite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Fake Out",
+        "Close Combat",
+        "U-turn",
+        "Triple Axel"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Wallbreaker (Normal)",
+      "nature": "Jolly",
+      "ability": "Limber",
+      "item": "Lopunnite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Power-Up Punch",
+        "Encore",
+        "Return",
+        "Close Combat"
+      ]
+    }
+  ],
+  "Spiritomb": [
+    {
+      "name": "PU Trick Room Sweeper",
+      "nature": "Quiet",
+      "ability": "Infiltrator",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Trick Room",
+        "Nasty Plot",
+        "Dark Pulse",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "ZU Offensive Trick Room",
+      "nature": "Quiet",
+      "ability": "Infiltrator",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Trick Room",
+        "Nasty Plot",
+        "Dark Pulse",
+        "Psyshock"
+      ]
+    },
+    {
+      "name": "ZU Physical Wall",
+      "nature": "Bold",
+      "ability": "Infiltrator",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Foul Play",
+        "Will-O-Wisp",
+        "Pain Split",
+        "Hex"
+      ]
+    }
+  ],
+  "Lucario": [
+    {
+      "name": "BSS Reg J Extreme Speed",
+      "nature": "Adamant",
+      "ability": "Inner Focus",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Extreme Speed",
+        "Close Combat",
+        "Bullet Punch",
+        "Swords Dance"
+      ]
+    }
+  ],
+  "Hippowdon": [
+    {
+      "name": "UU Tank",
+      "nature": "Impish",
+      "ability": "Sand Stream",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 112,
+        "spa": 0,
+        "spd": 148,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Ice Fang",
+        "Earthquake",
+        "Slack Off"
+      ]
+    },
+    {
+      "name": "BSS Reg J Stealth Rock Support",
+      "nature": "Careful",
+      "ability": "Sand Stream",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Yawn",
+        "Earthquake",
+        "Whirlwind"
+      ]
+    }
+  ],
+  "Toxicroak": [
+    {
+      "name": "NU Swords Dance",
+      "nature": "Jolly",
+      "ability": "Dry Skin",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Close Combat",
+        "Gunk Shot",
+        "Sucker Punch"
+      ]
+    }
+  ],
+  "Rhyperior": [
+    {
+      "name": "UU Offensive",
+      "nature": "Adamant",
+      "ability": "Solid Rock",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 16,
+        "def": 0,
+        "spa": 0,
+        "spd": 184,
+        "spe": 56
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Stone Edge",
+        "Swords Dance"
+      ]
+    },
+    {
+      "name": "RU Stealth Rock",
+      "nature": "Adamant",
+      "ability": "Solid Rock",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 196,
+        "spe": 60
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Stone Edge",
+        "Swords Dance"
+      ]
+    },
+    {
+      "name": "NU Stealth Rock",
+      "nature": "Adamant",
+      "ability": "Solid Rock",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 16,
+        "def": 0,
+        "spa": 0,
+        "spd": 240,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Stone Edge",
+        "Temper Flare"
+      ]
+    }
+  ],
+  "Mamoswine": [
+    {
+      "name": "UU Substitute",
+      "nature": "Adamant",
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Substitute",
+        "Earthquake",
+        "Icicle Crash",
+        "Trailblaze"
+      ]
+    },
+    {
+      "name": "Monotype Choice Scarf (Ice)",
+      "nature": "Jolly",
+      "ability": "Thick Fat",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Earthquake",
+        "Stone Edge",
+        "Icicle Crash",
+        "Knock Off"
+      ]
+    }
+  ],
+  "Froslass": [
+    {
+      "name": "RU Lead",
+      "nature": "Jolly",
+      "ability": "Cursed Body",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 156,
+        "atk": 100,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Spikes",
+        "Triple Axel",
+        "Will-O-Wisp",
+        "Taunt"
+      ]
+    },
+    {
+      "name": "PU Spikes Lead",
+      "nature": "Timid",
+      "ability": "Cursed Body",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Spikes",
+        "Ice Beam",
+        "Taunt",
+        "Destiny Bond"
+      ]
+    }
+  ],
+  "Rotom": [
+    {
+      "name": "ZU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Thunderbolt",
+        "Shadow Ball",
+        "Volt Switch",
+        "Trick"
+      ]
+    },
+    {
+      "name": "ZU Nasty Plot",
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Nasty Plot",
+        "Thunderbolt",
+        "Shadow Ball",
+        "Substitute"
+      ]
+    },
+    {
+      "name": "PU Showdown Usage",
+      "nature": "Timid",
+      "ability": "Levitate",
+      "item": "Colbur Berry",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Volt Switch",
+        "Shadow Ball",
+        "Thunderbolt",
+        "Trick"
+      ]
+    }
+  ],
+  "Serperior": [
+    {
+      "name": "OU Choice Scarf",
+      "nature": "Modest",
+      "ability": "Contrary",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Leaf Storm",
+        "Knock Off",
+        "Giga Drain",
+        "Glare"
+      ]
+    },
+    {
+      "name": "OU Offensive",
+      "nature": "Timid",
+      "ability": "Contrary",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Leaf Storm",
+        "Tera Blast",
+        "Glare",
+        "Dragon Pulse"
+      ]
+    },
+    {
+      "name": "UU Glare",
+      "nature": "Timid",
+      "ability": "Contrary",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 204,
+        "atk": 0,
+        "def": 0,
+        "spa": 52,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Leaf Storm",
+        "Tera Blast",
+        "Glare",
+        "Synthesis"
+      ]
+    }
+  ],
+  "Emboar": [
+    {
+      "name": "PU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Reckless",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Flare Blitz",
+        "Close Combat",
+        "Knock Off",
+        "Earthquake"
+      ]
+    }
+  ],
+  "Excadrill": [
+    {
+      "name": "UU Utility",
+      "nature": "Adamant",
+      "ability": "Mold Breaker",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 24,
+        "atk": 56,
+        "def": 0,
+        "spa": 0,
+        "spd": 252,
+        "spe": 176
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Iron Head",
+        "Rapid Spin"
+      ]
+    },
+    {
+      "name": "UU Swords Dance",
+      "nature": "Jolly",
+      "ability": "Mold Breaker",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Earthquake",
+        "Iron Head",
+        "Rapid Spin"
+      ]
+    }
+  ],
+  "Conkeldurr": [
+    {
+      "name": "UU Bulk Up",
+      "nature": "Adamant",
+      "ability": "Guts",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 16,
+        "def": 0,
+        "spa": 0,
+        "spd": 228,
+        "spe": 16
+      },
+      "moves": [
+        "Bulk Up",
+        "Drain Punch",
+        "Knock Off",
+        "Mach Punch"
+      ]
+    }
+  ],
+  "Krookodile": [
+    {
+      "name": "UU Stealth Rock",
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Knock Off",
+        "Earthquake",
+        "Gunk Shot"
+      ]
+    },
+    {
+      "name": "RU Stealth Rock",
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Knock Off",
+        "Taunt"
+      ]
+    }
+  ],
+  "Zoroark": [
+    {
+      "name": "PU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Illusion",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Knock Off",
+        "U-turn",
+        "Trick",
+        "Low Kick"
+      ]
+    }
+  ],
+  "Reuniclus": [
+    {
+      "name": "UU Calm Mind",
+      "nature": "Relaxed",
+      "ability": "Magic Guard",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Calm Mind",
+        "Psychic Noise",
+        "Knock Off",
+        "Recover"
+      ]
+    },
+    {
+      "name": "RU Calm Mind",
+      "nature": "Bold",
+      "ability": "Magic Guard",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Calm Mind",
+        "Psychic Noise",
+        "Focus Blast",
+        "Recover"
+      ]
+    }
+  ],
+  "Chandelure": [
+    {
+      "name": "NU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Flash Fire",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Fire Blast",
+        "Shadow Ball",
+        "Energy Ball",
+        "Trick"
+      ]
+    }
+  ],
+  "Volcarona": [
+    {
+      "name": "VGC 2025 Reg I Bulky Redirector",
+      "nature": "Timid",
+      "ability": "Flame Body",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 156,
+        "atk": 0,
+        "def": 84,
+        "spa": 12,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Overheat",
+        "Struggle Bug",
+        "Rage Powder",
+        "Tailwind"
+      ]
+    },
+    {
+      "name": "VGC 2025 Reg I Bulky Setup Sweeper",
+      "nature": "Timid",
+      "ability": "Flame Body",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 244,
+        "atk": 0,
+        "def": 92,
+        "spa": 12,
+        "spd": 28,
+        "spe": 132
+      },
+      "moves": [
+        "Struggle Bug",
+        "Flamethrower",
+        "Quiver Dance",
+        "Protect"
+      ]
+    }
+  ],
+  "Diggersby": [
+    {
+      "name": "National Dex RU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Huge Power",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Return",
+        "Earthquake",
+        "U-turn",
+        "Knock Off"
+      ]
+    }
+  ],
+  "Vivillon": [
+    {
+      "name": "VGC 2025 Reg I Support",
+      "nature": "Timid",
+      "ability": "Compound Eyes",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 4,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Hurricane",
+        "Rage Powder",
+        "Sleep Powder",
+        "Protect"
+      ]
+    }
+  ],
+  "Florges": [
+    {
+      "name": "NU Calm Mind",
+      "nature": "Bold",
+      "ability": "Flower Veil",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 120,
+        "spa": 0,
+        "spd": 0,
+        "spe": 136
+      },
+      "moves": [
+        "Calm Mind",
+        "Moonblast",
+        "Psychic Noise",
+        "Synthesis"
+      ]
+    },
+    {
+      "name": "NU Choice Scarf",
+      "nature": "Bold",
+      "ability": "Flower Veil",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 120,
+        "spa": 0,
+        "spd": 0,
+        "spe": 136
+      },
+      "moves": [
+        "Moonblast",
+        "Synthesis",
+        "Trick",
+        "Calm Mind"
+      ]
+    }
+  ],
+  "Aegislash": [
+    {
+      "name": "National Dex UU SubToxic",
+      "nature": "Modest",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 56,
+        "spd": 156,
+        "spe": 44
+      },
+      "moves": [
+        "Substitute",
+        "Toxic",
+        "King's Shield",
+        "Shadow Ball"
+      ]
+    },
+    {
+      "name": "National Dex UU Mixed Attacker",
+      "nature": "Quiet",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 240,
+        "atk": 8,
+        "def": 0,
+        "spa": 248,
+        "spd": 0,
+        "spe": 12
+      },
+      "moves": [
+        "Shadow Ball",
+        "Close Combat",
+        "King's Shield",
+        "Shadow Sneak"
+      ]
+    }
+  ],
+  "Sylveon": [
+    {
+      "name": "NU Wish",
+      "nature": "Bold",
+      "ability": "Pixilate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 212,
+        "spa": 0,
+        "spd": 0,
+        "spe": 44
+      },
+      "moves": [
+        "Wish",
+        "Protect",
+        "Calm Mind",
+        "Hyper Voice"
+      ]
+    }
+  ],
+  "Goodra": [
+    {
+      "name": "NU Acid Spray",
+      "nature": "Modest",
+      "ability": "Sap Sipper",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 76,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 0,
+        "spe": 180
+      },
+      "moves": [
+        "Acid Spray",
+        "Draco Meteor",
+        "Flamethrower",
+        "Substitute"
+      ]
+    }
+  ],
+  "Klefki": [
+    {
+      "name": "NU Spikes Support",
+      "nature": "Calm",
+      "ability": "Prankster",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Spikes",
+        "Thunder Wave",
+        "Foul Play",
+        "Dazzling Gleam"
+      ]
+    }
+  ],
+  "Decidueye": [
+    {
+      "name": "NU Swords Dance",
+      "nature": "Adamant",
+      "ability": "Long Reach",
+      "item": "Spell Tag",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Swords Dance",
+        "Spirit Shackle",
+        "Leaf Blade",
+        "Shadow Sneak"
+      ]
+    }
+  ],
+  "Crabominable": [
+    {
+      "name": "ZU Bulk Up",
+      "nature": "Adamant",
+      "ability": "Iron Fist",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Bulk Up",
+        "Ice Hammer",
+        "Drain Punch",
+        "Earthquake"
+      ]
+    }
+  ],
+  "Lycanroc": [
+    {
+      "name": "PU Entry Hazard Lead",
+      "nature": "Jolly",
+      "ability": "Steadfast",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Taunt",
+        "Endeavor",
+        "Rock Blast"
+      ]
+    }
+  ],
+  "Mudsdale": [
+    {
+      "name": "NU Defensive",
+      "nature": "Impish",
+      "ability": "Stamina",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 4,
+        "def": 252,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Earthquake",
+        "Body Press",
+        "Stealth Rock",
+        "Protect"
+      ]
+    },
+    {
+      "name": "PU Physical Wall",
+      "nature": "Impish",
+      "ability": "Stamina",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Body Press",
+        "Roar"
+      ]
+    },
+    {
+      "name": "1v1 Showdown Usage",
+      "nature": "Careful",
+      "ability": "Stamina",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 4,
+        "def": 0,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Earthquake",
+        "Body Press",
+        "Iron Defense",
+        "Counter"
+      ]
+    }
+  ],
+  "Araquanid": [
+    {
+      "name": "NU Sticky Web",
+      "nature": "Adamant",
+      "ability": "Water Bubble",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 68,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 188
+      },
+      "moves": [
+        "Liquidation",
+        "Lunge",
+        "Sticky Web",
+        "Endeavor"
+      ]
+    }
+  ],
+  "Salazzle": [
+    {
+      "name": "RU Substitute + Toxic",
+      "nature": "Timid",
+      "ability": "Corrosion",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 0,
+        "spa": 8,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Flamethrower",
+        "Substitute",
+        "Protect",
+        "Toxic"
+      ]
+    }
+  ],
+  "Passimian": [
+    {
+      "name": "PU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Defiant",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Close Combat",
+        "Knock Off",
+        "U-turn",
+        "Earthquake"
+      ]
+    },
+    {
+      "name": "NU Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Defiant",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Close Combat",
+        "U-turn",
+        "Knock Off",
+        "Earthquake"
+      ]
+    },
+    {
+      "name": "ZU Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Defiant",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Close Combat",
+        "Knock Off",
+        "U-turn",
+        "Earthquake"
+      ]
+    }
+  ],
+  "Corviknight": [
+    {
+      "name": "Ubers Physically Defensive",
+      "nature": "Impish",
+      "ability": "Pressure",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 160,
+        "spa": 0,
+        "spd": 96,
+        "spe": 0
+      },
+      "moves": [
+        "Body Press",
+        "U-turn",
+        "Defog",
+        "Roost"
+      ]
+    },
+    {
+      "name": "Ubers Specially Defensive",
+      "nature": "Careful",
+      "ability": "Mirror Armor",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 8,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Iron Head",
+        "U-turn",
+        "Roost",
+        "Defog"
+      ]
+    }
+  ],
+  "Polteageist": [
+    {
+      "name": "OU Offensive Shell Smash",
+      "nature": "Modest",
+      "ability": "Weak Armor",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Shell Smash",
+        "Shadow Ball",
+        "Stored Power",
+        "Tera Blast"
+      ]
+    },
+    {
+      "name": "OU Bulky Shell Smash",
+      "nature": "Bold",
+      "ability": "Cursed Body",
+      "item": "White Herb",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 116,
+        "spa": 0,
+        "spd": 0,
+        "spe": 140
+      },
+      "moves": [
+        "Shell Smash",
+        "Shadow Ball",
+        "Tera Blast",
+        "Strength Sap"
+      ]
+    },
+    {
+      "name": "Almost Any Ability Shell Smash Sweeper",
+      "nature": "Timid",
+      "ability": "Queenly Majesty",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Shell Smash",
+        "Shadow Ball",
+        "Stored Power",
+        "Giga Drain"
+      ]
+    }
+  ],
+  "Alcremie": [
+    {
+      "name": "PU Double Dance",
+      "nature": "Bold",
+      "ability": "Aroma Veil",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 192,
+        "spa": 0,
+        "spd": 0,
+        "spe": 64
+      },
+      "moves": [
+        "Calm Mind",
+        "Acid Armor",
+        "Draining Kiss",
+        "Stored Power"
+      ]
+    }
+  ],
+  "Kleavor": [
+    {
+      "name": "RU Lead",
+      "nature": "Jolly",
+      "ability": "Sharpness",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Stone Axe",
+        "X-Scissor",
+        "Swords Dance",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Sharpness",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Stone Axe",
+        "U-turn",
+        "X-Scissor",
+        "Close Combat"
+      ]
+    },
+    {
+      "name": "BSS Reg J Timber!",
+      "nature": "Adamant",
+      "ability": "Sharpness",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stone Axe",
+        "Night Slash",
+        "Feint",
+        "X-Scissor"
+      ]
+    }
+  ],
+  "Basculegion": [
+    {
+      "name": "VGC 2025 Reg I Choice Scarf Sweeper",
+      "nature": "Jolly",
+      "ability": "Adaptability",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Wave Crash",
+        "Last Respects",
+        "Flip Turn",
+        "Aqua Jet"
+      ]
+    },
+    {
+      "name": "VGC 2025 Reg I Focus Sash Sweeper",
+      "nature": "Adamant",
+      "ability": "Adaptability",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Liquidation",
+        "Last Respects",
+        "Aqua Jet",
+        "Protect"
+      ]
+    }
+  ],
+  "Sneasler": [
+    {
+      "name": "VGC 2025 Reg I Focus Sash",
+      "nature": "Jolly",
+      "ability": "Unburden",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Dire Claw",
+        "Close Combat",
+        "Fake Out",
+        "Coaching"
+      ]
+    }
+  ],
+  "Meowscarada": [
+    {
+      "name": "OU Choice Scarf",
+      "nature": "Jolly",
+      "ability": "Protean",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Knock Off",
+        "U-turn",
+        "Triple Axel",
+        "Flower Trick"
+      ]
+    }
+  ],
+  "Quaquaval": [
+    {
+      "name": "BSS Reg J (Regulation C) Moxie Sweeper",
+      "nature": "Jolly",
+      "ability": "Moxie",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Aqua Step",
+        "Close Combat",
+        "Aqua Jet",
+        "Ice Spinner"
+      ]
+    },
+    {
+      "name": "BSS Reg J (Regulation C) Bulky",
+      "nature": "Jolly",
+      "ability": "Moxie",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 156,
+        "spe": 100
+      },
+      "moves": [
+        "Aqua Step",
+        "Roost",
+        "Bulk Up",
+        "Taunt"
+      ]
+    }
+  ],
+  "Garganacl": [
+    {
+      "name": "OU Stealth Rock",
+      "nature": "Careful",
+      "ability": "Purifying Salt",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 52,
+        "spa": 0,
+        "spd": 204,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Salt Cure",
+        "Recover",
+        "Protect"
+      ]
+    },
+    {
+      "name": "OU Curse",
+      "nature": "Careful",
+      "ability": "Purifying Salt",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 52,
+        "spa": 0,
+        "spd": 204,
+        "spe": 0
+      },
+      "moves": [
+        "Curse",
+        "Salt Cure",
+        "Recover",
+        "Earthquake"
+      ]
+    },
+    {
+      "name": "OU Iron Defense",
+      "nature": "Careful",
+      "ability": "Purifying Salt",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Iron Defense",
+        "Body Press",
+        "Salt Cure",
+        "Recover"
+      ]
+    }
+  ],
+  "Ceruledge": [
+    {
+      "name": "BSS Reg J Bulk Up Sweeper",
+      "nature": "Impish",
+      "ability": "Flash Fire",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 4,
+        "def": 252,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Bitter Blade",
+        "Bulk Up",
+        "Taunt",
+        "Shadow Sneak"
+      ]
+    }
+  ],
+  "Scovillain": [
+    {
+      "name": "BSS Reg J Moody Ace",
+      "nature": "Bold",
+      "ability": "Moody",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 180,
+        "atk": 0,
+        "def": 220,
+        "spa": 4,
+        "spd": 4,
+        "spe": 100
+      },
+      "moves": [
+        "Protect",
+        "Substitute",
+        "Flamethrower",
+        "Leech Seed"
+      ]
+    }
+  ],
+  "Espathra": [
+    {
+      "name": "BSS Reg J Calm Mind",
+      "nature": "Bold",
+      "ability": "Speed Boost",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 244,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 0,
+        "spe": 12
+      },
+      "moves": [
+        "Calm Mind",
+        "Stored Power",
+        "Tera Blast",
+        "Protect"
+      ]
+    },
+    {
+      "name": "BSS Reg J Speed Passer",
+      "nature": "Timid",
+      "ability": "Speed Boost",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Lumina Crash",
+        "Baton Pass",
+        "Protect",
+        "Calm Mind"
+      ]
+    }
+  ],
+  "Tinkaton": [
+    {
+      "name": "UU Bulky Wall",
+      "nature": "Careful",
+      "ability": "Pickpocket",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 184,
+        "spa": 0,
+        "spd": 76,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Gigaton Hammer",
+        "Knock Off",
+        "Encore"
+      ]
+    }
+  ],
+  "Palafin": [
+    {
+      "name": "Ubers Bulk Up",
+      "nature": "Careful",
+      "ability": "Zero to Hero",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 8,
+        "def": 0,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Jet Punch",
+        "Bulk Up",
+        "Drain Punch",
+        "Taunt"
+      ]
+    }
+  ],
+  "Orthworm": [
+    {
+      "name": "Ubers Shed Tail",
+      "nature": "Impish",
+      "ability": "Earth Eater",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Shed Tail",
+        "Stealth Rock",
+        "Body Press",
+        "Iron Head"
+      ]
+    },
+    {
+      "name": "PU Hazard Setter",
+      "nature": "Careful",
+      "ability": "Earth Eater",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Spikes",
+        "Heavy Slam",
+        "Body Press"
+      ]
+    },
+    {
+      "name": "PU Bulky Sweeper",
+      "nature": "Careful",
+      "ability": "Earth Eater",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Coil",
+        "Heavy Slam",
+        "Body Press",
+        "Rest"
+      ]
+    }
+  ],
+  "Glimmora": [
+    {
+      "name": "OU Lead",
+      "nature": "Timid",
+      "ability": "Toxic Debris",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Mortal Spin",
+        "Power Gem",
+        "Earth Power"
+      ]
+    },
+    {
+      "name": "Ubers Suicide Lead",
+      "nature": "Timid",
+      "ability": "Toxic Debris",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 172,
+        "spa": 84,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Mortal Spin",
+        "Mud Shot",
+        "Dazzling Gleam"
+      ]
+    }
+  ],
+  "Kingambit": [
+    {
+      "name": "VGC 2025 Reg I Offensive",
+      "nature": "Adamant",
+      "ability": "Defiant",
+      "item": "Black Glasses",
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Kowtow Cleave",
+        "Sucker Punch",
+        "Protect",
+        "Swords Dance"
+      ]
+    }
+  ],
+  "Sinistcha": [
+    {
+      "name": "VGC 2025 Reg I Trick Room Support",
+      "nature": "Bold",
+      "ability": "Hospitality",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 100,
+        "spa": 0,
+        "spd": 156,
+        "spe": 0
+      },
+      "moves": [
+        "Matcha Gotcha",
+        "Life Dew",
+        "Trick Room",
+        "Rage Powder"
+      ]
+    }
+  ],
+  "Banette": [
+    {
+      "name": "National Dex Showdown Usage",
+      "nature": "Adamant",
+      "ability": "Insomnia",
+      "item": "Banettite",
+      "evs": {
+        "hp": 40,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 216
+      },
+      "moves": [
+        "Destiny Bond",
+        "Poltergeist",
+        "Encore",
+        "Shadow Sneak"
+      ]
+    },
+    {
+      "name": "National Dex UU Showdown Usage",
+      "nature": "Adamant",
+      "ability": "Insomnia",
+      "item": "Banettite",
+      "evs": {
+        "hp": 112,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 144
+      },
+      "moves": [
+        "Destiny Bond",
+        "Poltergeist",
+        "Will-O-Wisp",
+        "Encore"
+      ]
+    },
+    {
+      "name": "National Dex Monotype Showdown Usage",
+      "nature": "Careful",
+      "ability": "Insomnia",
+      "item": "Banettite",
+      "evs": {
+        "hp": 0,
+        "atk": 4,
+        "def": 252,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Poltergeist",
+        "Destiny Bond",
+        "Cotton Guard",
+        "Pain Split"
+      ]
+    }
+  ],
+  "Arbok": [
+    {
+      "name": "ZU Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Intimidate",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Glare",
+        "Earthquake",
+        "Gunk Shot",
+        "Switcheroo"
+      ]
+    }
+  ],
+  "Dedenne": [
+    {
+      "name": "ZU Showdown Usage",
+      "nature": "Modest",
+      "ability": "Pickup",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Thunderbolt",
+        "Dazzling Gleam",
+        "Grass Knot",
+        "Nuzzle"
+      ]
+    }
+  ],
+  "Oranguru": [
+    {
+      "name": "National Dex Doubles Showdown Usage",
+      "nature": "Sassy",
+      "ability": "Telepathy",
+      "item": "Mental Herb",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 188,
+        "spa": 0,
+        "spd": 68,
+        "spe": 0
+      },
+      "moves": [
+        "Instruct",
+        "Trick Room",
+        "Protect",
+        "Ally Switch"
+      ]
+    }
+  ],
+  "Cofagrigus": [
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Sassy",
+      "ability": "Mummy",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 0,
+        "spa": 8,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Will-O-Wisp",
+        "Hex",
+        "Shadow Ball",
+        "Trick Room"
+      ]
+    }
+  ],
+  "Ampharos": [
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Quiet",
+      "ability": "Static",
+      "item": "Ampharosite",
+      "evs": {
+        "hp": 248,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Dragon Pulse",
+        "Thunderbolt",
+        "Charge Beam",
+        "Focus Blast"
+      ]
+    }
+  ],
+  "Glalie": [
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Jolly",
+      "ability": "Inner Focus",
+      "item": "Glalitite",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Spikes",
+        "Earthquake",
+        "Explosion",
+        "Return"
+      ]
+    }
+  ],
+  "Slurpuff": [
+    {
+      "name": "National Dex RU Showdown Usage",
+      "nature": "Adamant",
+      "ability": "Unburden",
+      "item": "Sitrus Berry",
+      "evs": {
+        "hp": 4,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Belly Drum",
+        "Drain Punch",
+        "Play Rough",
+        "Calm Mind"
+      ]
+    }
+  ],
+  "Ariados": [
+    {
+      "name": "PU Lead",
+      "nature": "Jolly",
+      "ability": "Swarm",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Sticky Web",
+        "Toxic Spikes",
+        "Megahorn",
+        "Toxic Thread"
+      ]
+    },
+    {
+      "name": "ZU Showdown Usage",
+      "nature": "Adamant",
+      "ability": "Insomnia",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 248,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 8,
+        "spe": 0
+      },
+      "moves": [
+        "Sticky Web",
+        "Sucker Punch",
+        "Poison Jab",
+        "Megahorn"
+      ]
+    }
+  ],
+  "Chimecho": [
+    {
+      "name": "PU Supporter",
+      "nature": "Calm",
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Healing Wish",
+        "Recover",
+        "Psychic",
+        "Thunder Wave"
+      ]
+    },
+    {
+      "name": "ZU Trick Room Setter",
+      "nature": "Relaxed",
+      "ability": "Levitate",
+      "item": "Colbur Berry",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 4,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Trick Room",
+        "Taunt",
+        "Psyshock",
+        "Healing Wish"
+      ]
+    },
+    {
+      "name": "ZU Defogger",
+      "nature": "Bold",
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 4,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Psychic",
+        "Toxic",
+        "Recover",
+        "Defog"
+      ]
+    }
+  ],
+  "Furfrou": [
+    {
+      "name": "PU Offensive Pivot",
+      "nature": "Jolly",
+      "ability": "Fur Coat",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 32,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 224
+      },
+      "moves": [
+        "Return",
+        "U-turn",
+        "Toxic",
+        "Sucker Punch"
+      ]
+    }
+  ],
+  "Meganium": [
+    {
+      "name": "PU Cleric",
+      "nature": "Calm",
+      "ability": "Overgrow",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Aromatherapy",
+        "Giga Drain",
+        "Synthesis",
+        "Dragon Tail"
+      ]
+    },
+    {
+      "name": "ZU Showdown Usage",
+      "nature": "Calm",
+      "ability": "Overgrow",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 208,
+        "spe": 48
+      },
+      "moves": [
+        "Giga Drain",
+        "Aromatherapy",
+        "Dragon Tail",
+        "Synthesis"
+      ]
+    }
+  ],
+  "Aegislash-Blade": [
+    {
+      "name": "National Dex UU SubToxic",
+      "nature": "Modest",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 0,
+        "spa": 56,
+        "spd": 156,
+        "spe": 44
+      },
+      "moves": [
+        "Substitute",
+        "Toxic",
+        "King's Shield",
+        "Shadow Ball"
+      ]
+    },
+    {
+      "name": "National Dex UU Mixed Attacker",
+      "nature": "Quiet",
+      "ability": "Stance Change",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 240,
+        "atk": 8,
+        "def": 0,
+        "spa": 248,
+        "spd": 0,
+        "spe": 12
+      },
+      "moves": [
+        "Shadow Ball",
+        "Close Combat",
+        "King's Shield",
+        "Shadow Sneak"
+      ]
+    }
+  ],
+  "Aromatisse": [
+    {
+      "name": "PU Defensive",
+      "nature": "Bold",
+      "ability": "Aroma Veil",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Moonblast",
+        "Wish",
+        "Protect",
+        "Heal Bell"
+      ]
+    }
+  ],
+  "Audino": [
+    {
+      "name": "NU Showdown Usage",
+      "nature": "Sassy",
+      "ability": "Regenerator",
+      "item": "Chople Berry",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Healing Wish",
+        "Trick Room",
+        "Encore",
+        "Gravity"
+      ]
+    }
+  ],
+  "Aurorus": [
+    {
+      "name": "RU Hail Lead",
+      "nature": "Modest",
+      "ability": "Snow Warning",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Blizzard",
+        "Encore",
+        "Earth Power"
+      ]
+    },
+    {
+      "name": "NU Dedicated Lead",
+      "nature": "Timid",
+      "ability": "Snow Warning",
+      "item": "Focus Sash",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Stealth Rock",
+        "Aurora Veil",
+        "Blizzard",
+        "Earth Power"
+      ]
+    }
+  ],
+  "Emolga": [
+    {
+      "name": "ZU Offensive Utility",
+      "nature": "Jolly",
+      "ability": "Motor Drive",
+      "item": null,
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 4,
+        "spa": 0,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Acrobatics",
+        "Knock Off",
+        "U-turn",
+        "Roost"
+      ]
+    }
+  ],
+  "Flapple": [
+    {
+      "name": "ZU Dragon Dance",
+      "nature": "Jolly",
+      "ability": "Hustle",
+      "item": null,
+      "evs": {
+        "hp": 0,
+        "atk": 252,
+        "def": 0,
+        "spa": 0,
+        "spd": 4,
+        "spe": 252
+      },
+      "moves": [
+        "Dragon Dance",
+        "Grav Apple",
+        "Acrobatics",
+        "Sucker Punch"
+      ]
+    }
+  ],
+  "Kommo-o": [
+    {
+      "name": "VGC 2025 Reg I Iron Defense",
+      "nature": "Bold",
+      "ability": "Overcoat",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 148,
+        "spa": 4,
+        "spd": 100,
+        "spe": 4
+      },
+      "moves": [
+        "Iron Defense",
+        "Body Press",
+        "Flamethrower",
+        "Protect"
+      ]
+    }
+  ],
+  "Runerigus": [
+    {
+      "name": "PU Defensive",
+      "nature": "Impish",
+      "ability": "Wandering Spirit",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Earthquake",
+        "Will-O-Wisp",
+        "Toxic Spikes"
+      ]
+    },
+    {
+      "name": "PU Bulky Setup Sweeper",
+      "nature": "Impish",
+      "ability": "Wandering Spirit",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Iron Defense",
+        "Amnesia",
+        "Rest",
+        "Body Press"
+      ]
+    },
+    {
+      "name": "Monotype Defensive Hazard Setter (Ghost)",
+      "nature": "Impish",
+      "ability": "Wandering Spirit",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 0,
+        "spd": 4,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Toxic Spikes",
+        "Earthquake",
+        "Will-O-Wisp"
+      ]
+    }
+  ],
+  "Stunfisk": [
+    {
+      "name": "OU Specially Defensive",
+      "nature": "Calm",
+      "ability": "Static",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Discharge",
+        "Toxic",
+        "Pain Split"
+      ]
+    },
+    {
+      "name": "ZU Specially Defensive",
+      "nature": "Calm",
+      "ability": "Static",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 4,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Stealth Rock",
+        "Toxic",
+        "Earth Power",
+        "Discharge"
+      ]
+    },
+    {
+      "name": "PU Showdown Usage",
+      "nature": "Bold",
+      "ability": "Static",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 252,
+        "atk": 0,
+        "def": 252,
+        "spa": 4,
+        "spd": 0,
+        "spe": 0
+      },
+      "moves": [
+        "Earth Power",
+        "Discharge",
+        "Stealth Rock",
+        "Toxic"
+      ]
+    }
+  ],
+  "Basculegion-F": [
+    {
+      "name": "UU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Adaptability",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Shadow Ball",
+        "Surf",
+        "Ice Beam",
+        "Flip Turn"
+      ]
+    },
+    {
+      "name": "RU Choice Scarf",
+      "nature": "Timid",
+      "ability": "Adaptability",
+      "item": "Choice Scarf",
+      "evs": {
+        "hp": 0,
+        "atk": 0,
+        "def": 4,
+        "spa": 252,
+        "spd": 0,
+        "spe": 252
+      },
+      "moves": [
+        "Shadow Ball",
+        "Surf",
+        "Ice Beam",
+        "Flip Turn"
+      ]
+    }
+  ],
+  "Palafin-Hero": [
+    {
+      "name": "Ubers Bulk Up",
+      "nature": "Careful",
+      "ability": "Zero to Hero",
+      "item": "Leftovers",
+      "evs": {
+        "hp": 248,
+        "atk": 8,
+        "def": 0,
+        "spa": 0,
+        "spd": 252,
+        "spe": 0
+      },
+      "moves": [
+        "Jet Punch",
+        "Bulk Up",
+        "Drain Punch",
+        "Taunt"
+      ]
+    }
+  ]
+}

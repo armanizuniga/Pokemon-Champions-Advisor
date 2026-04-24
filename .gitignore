@@ -1,0 +1,14 @@
+venv/
+source/
+.idea/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+**/.DS_Store
+node/node_modules/
+data/cache/
+data/debug/
+data/transcripts/
+scripts/ingest_transcripts.py
+data/eval/results/

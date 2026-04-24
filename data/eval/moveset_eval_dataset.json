@@ -1,0 +1,236 @@
+[
+  {
+    "species": "Garchomp",
+    "archetype": "fast physical attacker",
+    "rag_notes": "Top player insight: max speed is often correct for Garchomp — dropping speed means opposing Garchomps and admin spreads can outpace you, which loses games.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_items": ["Garchompite", "Focus Sash", "Lum Berry", "Yache Berry"],
+      "preferred_abilities": ["Rough Skin", "Sand Veil"],
+      "role_notes": "Should invest heavily in Speed and Attack. Protect expected in doubles. Mega form viable."
+    }
+  },
+  {
+    "species": "Incineroar",
+    "archetype": "bulky support intimidate",
+    "rag_notes": "Top player insight: Incineroar lost Knock Off in Champions. Core support role with Fake Out + Parting Shot + Intimidate. Common lead with Trick Room setters like Farigiraf.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_fake_out": true,
+      "should_include_parting_shot": true,
+      "should_include_protect": true,
+      "should_not_include": ["Knock Off"],
+      "preferred_abilities": ["Intimidate"],
+      "preferred_items": ["Sitrus Berry", "Lum Berry", "Leftovers"],
+      "role_notes": "Should not max Speed. Bulk investment expected. Fake Out and Parting Shot are core moves."
+    }
+  },
+  {
+    "species": "Charizard",
+    "archetype": "mega evolution attacker",
+    "rag_notes": "Top player insight: Charizardite Y is dominant for sun-based special attacking. Charizardite X used in Trick Room teams. Dual mega teams often run 70-80% primary mega usage.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_items": ["Charizardite X", "Charizardite Y"],
+      "role_notes": "Should hold a Mega Stone. Set should reflect the chosen Mega form — Y favors special moves, X favors physical."
+    }
+  },
+  {
+    "species": "Tyranitar",
+    "archetype": "sand setter bulky attacker",
+    "rag_notes": "Top player insight: Tyranitar provides Sand Stream support. Icy Wind is a valuable speed control option. Does not always need to Mega evolve.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Sand Stream"],
+      "preferred_items": ["Tyranitarite", "Sitrus Berry", "Lum Berry", "Focus Sash"],
+      "role_notes": "Sand Stream is the preferred ability. Should invest in bulk. Icy Wind or Rock Slide for spread damage."
+    }
+  },
+  {
+    "species": "Farigiraf",
+    "archetype": "trick room setter",
+    "rag_notes": "Top player insight: Farigiraf is a top Trick Room setter. Armor Tail blocks Fake Out which protects Trick Room setup. Common lead with Incineroar.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_trick_room": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Armor Tail", "Cud Chew"],
+      "preferred_items": ["Mental Herb", "Sitrus Berry", "Lum Berry"],
+      "should_not_max_speed": true,
+      "role_notes": "Should minimize Speed investment for Trick Room. Armor Tail blocks priority moves. Mental Herb protects against Taunt."
+    }
+  },
+  {
+    "species": "Talonflame",
+    "archetype": "tailwind setter",
+    "rag_notes": "Top player insight: Talonflame is a premier Tailwind setter. Gale Wings gives priority Tailwind before nerfs. Pairs with powerful spread attackers.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_tailwind": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Gale Wings"],
+      "preferred_items": ["Focus Sash", "Sitrus Berry", "Lum Berry"],
+      "role_notes": "Gale Wings is the preferred ability. Tailwind is a required move. Should invest in Speed. Fragile — Focus Sash viable."
+    }
+  },
+  {
+    "species": "Kingambit",
+    "archetype": "late game physical sweeper",
+    "rag_notes": "Top player insight: 5 Speed EVs to edge out opposing Kingambit in mirror matchups. Supreme Overlord gets stronger as teammates faint. Sucker Punch as priority.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Supreme Overlord"],
+      "preferred_items": ["Focus Sash", "Sitrus Berry", "Lum Berry", "Scope Lens"],
+      "role_notes": "Supreme Overlord is core ability. Should include Sucker Punch for priority. A few Speed EVs to win mirror matchup."
+    }
+  },
+  {
+    "species": "Hatterene",
+    "archetype": "trick room setter special attacker",
+    "rag_notes": "Top player insight: Magic Bounce reflects Taunt and status moves back, protecting Trick Room setup. Focus Sash ensures at least one Trick Room.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_trick_room": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Magic Bounce"],
+      "preferred_items": ["Mental Herb", "Focus Sash", "Sitrus Berry"],
+      "should_not_max_speed": true,
+      "role_notes": "Magic Bounce is preferred. Trick Room is a required move. Minimum Speed investment. Strong special attacker under Trick Room."
+    }
+  },
+  {
+    "species": "Whimsicott",
+    "archetype": "prankster speed control support",
+    "rag_notes": "Top player insight: Prankster gives priority to status moves including Tailwind and Trick Room. Versatile speed control option that can run either.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Prankster"],
+      "has_speed_control": true,
+      "preferred_items": ["Mental Herb", "Focus Sash", "Sitrus Berry", "Lum Berry"],
+      "role_notes": "Prankster is the required ability. Should include Tailwind or Trick Room. Icy Wind also viable for speed control."
+    }
+  },
+  {
+    "species": "Dragapult",
+    "archetype": "fast special attacker",
+    "rag_notes": "Top player insight: One of the fastest Pokemon in the format. Clear Body prevents stat drops from Intimidate. Strong special coverage.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Clear Body", "Infiltrator"],
+      "preferred_items": ["Focus Sash", "Choice Scarf", "Lum Berry", "Sitrus Berry"],
+      "role_notes": "Clear Body protects from Intimidate. Should max Speed. Strong Ghost and Dragon coverage expected."
+    }
+  },
+  {
+    "species": "Corviknight",
+    "archetype": "tailwind setter physical wall",
+    "rag_notes": "Top player insight: Corviknight provides Tailwind support with high physical bulk. Mirror Armor reflects stat drops back at the opponent.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_tailwind": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Mirror Armor", "Pressure"],
+      "preferred_items": ["Sitrus Berry", "Leftovers", "Lum Berry"],
+      "role_notes": "Should invest in bulk over Speed. Tailwind is a required move. Mirror Armor punishes Intimidate users."
+    }
+  },
+  {
+    "species": "Scizor",
+    "archetype": "mega evolution priority attacker",
+    "rag_notes": "Top player insight: Mega Scizor is a bulky Technician user. Bullet Punch as priority STAB. Can also set Tailwind.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_items": ["Scizorite"],
+      "preferred_abilities": ["Technician", "Swarm"],
+      "role_notes": "Should hold Scizorite. Bullet Punch is a core priority move. Technician boosts low-BP moves. Bulk investment expected."
+    }
+  },
+  {
+    "species": "Rotom",
+    "archetype": "special attacker pivot",
+    "rag_notes": "Top player insight: Rotom-W with Levitate provides Water and Electric coverage. Volt Switch for momentum. Difficult to hit with Ground moves.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Levitate"],
+      "preferred_items": ["Sitrus Berry", "Choice Scarf", "Lum Berry"],
+      "role_notes": "Levitate is the only ability. Volt Switch for pivoting expected. Should include Electric and Water coverage."
+    }
+  },
+  {
+    "species": "Kommo-o",
+    "archetype": "setup sweeper",
+    "rag_notes": "Top player insight: Kommo-o can use Clangorous Soul or Clanging Scales for offense. Bulletproof blocks Ball and Bomb moves. Strong Dragon and Fighting coverage.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_abilities": ["Bulletproof", "Soundproof"],
+      "preferred_items": ["White Herb", "Focus Sash", "Lum Berry", "Sitrus Berry"],
+      "role_notes": "Bulletproof blocks common spread moves. Strong mixed coverage. White Herb pairs well with Clanging Scales stat drop."
+    }
+  },
+  {
+    "species": "Meganium",
+    "archetype": "support mega evolution",
+    "rag_notes": "Top player insight: Mega Meganium is a Champions-exclusive Mega. Support role with healing and status moves. Leaf Guard protects from status in sun.",
+    "expect": {
+      "legal_moves": true,
+      "legal_item": true,
+      "legal_ability": true,
+      "valid_evs": true,
+      "should_include_protect": true,
+      "preferred_items": ["Meganiumite", "Sitrus Berry", "Lum Berry", "Leftovers"],
+      "preferred_abilities": ["Overgrow", "Leaf Guard"],
+      "role_notes": "Should hold Meganiumite for Mega form. Bulk investment expected. Support moves like healing or status expected alongside Grass STAB."
+    }
+  }
+]
