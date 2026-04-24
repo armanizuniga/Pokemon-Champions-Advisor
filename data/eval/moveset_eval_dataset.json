@@ -79,22 +79,6 @@
     }
   },
   {
-    "species": "Talonflame",
-    "archetype": "tailwind setter",
-    "rag_notes": "Top player insight: Talonflame is a premier Tailwind setter. Gale Wings gives priority Tailwind before nerfs. Pairs with powerful spread attackers.",
-    "expect": {
-      "legal_moves": true,
-      "legal_item": true,
-      "legal_ability": true,
-      "valid_evs": true,
-      "should_include_tailwind": true,
-      "should_include_protect": true,
-      "preferred_abilities": ["Gale Wings"],
-      "preferred_items": ["Focus Sash", "Sitrus Berry", "Lum Berry"],
-      "role_notes": "Gale Wings is the preferred ability. Tailwind is a required move. Should invest in Speed. Fragile — Focus Sash viable."
-    }
-  },
-  {
     "species": "Kingambit",
     "archetype": "late game physical sweeper",
     "rag_notes": "Top player insight: 5 Speed EVs to edge out opposing Kingambit in mirror matchups. Supreme Overlord gets stronger as teammates faint. Sucker Punch as priority.",
@@ -107,23 +91,6 @@
       "preferred_abilities": ["Supreme Overlord"],
       "preferred_items": ["Focus Sash", "Sitrus Berry", "Lum Berry", "Scope Lens"],
       "role_notes": "Supreme Overlord is core ability. Should include Sucker Punch for priority. A few Speed EVs to win mirror matchup."
-    }
-  },
-  {
-    "species": "Hatterene",
-    "archetype": "trick room setter special attacker",
-    "rag_notes": "Top player insight: Magic Bounce reflects Taunt and status moves back, protecting Trick Room setup. Focus Sash ensures at least one Trick Room.",
-    "expect": {
-      "legal_moves": true,
-      "legal_item": true,
-      "legal_ability": true,
-      "valid_evs": true,
-      "should_include_trick_room": true,
-      "should_include_protect": true,
-      "preferred_abilities": ["Magic Bounce"],
-      "preferred_items": ["Mental Herb", "Focus Sash", "Sitrus Berry"],
-      "should_not_max_speed": true,
-      "role_notes": "Magic Bounce is preferred. Trick Room is a required move. Minimum Speed investment. Strong special attacker under Trick Room."
     }
   },
   {
@@ -201,21 +168,6 @@
       "preferred_abilities": ["Levitate"],
       "preferred_items": ["Sitrus Berry", "Choice Scarf", "Lum Berry"],
       "role_notes": "Levitate is the only ability. Volt Switch for pivoting expected. Should include Electric and Water coverage."
-    }
-  },
-  {
-    "species": "Kommo-o",
-    "archetype": "setup sweeper",
-    "rag_notes": "Top player insight: Kommo-o can use Clangorous Soul or Clanging Scales for offense. Bulletproof blocks Ball and Bomb moves. Strong Dragon and Fighting coverage.",
-    "expect": {
-      "legal_moves": true,
-      "legal_item": true,
-      "legal_ability": true,
-      "valid_evs": true,
-      "should_include_protect": true,
-      "preferred_abilities": ["Bulletproof", "Soundproof"],
-      "preferred_items": ["White Herb", "Focus Sash", "Lum Berry", "Sitrus Berry"],
-      "role_notes": "Bulletproof blocks common spread moves. Strong mixed coverage. White Herb pairs well with Clanging Scales stat drop."
     }
   },
   {
