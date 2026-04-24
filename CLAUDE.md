@@ -49,8 +49,8 @@ Planned features in order:
 ## Architecture
 
 ### Scripts (`scripts/`)
-- `moveset_suggest.py` — Phase 1 core: takes a species name, loads legal data, asks Claude for a moveset recommendation with XML structured output
-- `eval_moveset.py` — Eval runner: runs all 15 eval dataset Pokemon through the suggester, grades with code-based + model-based checks, saves timestamped results
+- `moveset_suggest.py` — Phase 1 core: takes a species name, loads legal data, queries ChromaDB for relevant player commentary (RAG), asks Claude for a moveset recommendation with XML structured output
+- `eval_moveset.py` — Eval runner: runs all 15 eval dataset Pokemon through the full pipeline (including RAG), grades with code-based + model-based checks, saves timestamped results for baseline comparison
 - `fetch_champions_data.py` — Scrapes Serebii for legal Pokemon + items, fetches base stats from PokeAPI for all species + forms/megas, filters Smogon sets to legal items
 - `fetch_champions_moves.py` — Scrapes Champions Pokedex on Serebii for legal move pools and abilities per species in one pass
 - `ingest_transcripts.py` — Chunks and embeds transcript `.txt` files into ChromaDB for RAG retrieval
