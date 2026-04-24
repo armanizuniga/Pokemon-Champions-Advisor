@@ -43,6 +43,7 @@ from moveset_suggest import (
     load_data,
     name_to_slug,
     parse_response,
+    retrieve_rag_context,
 )
 
 console = Console()
@@ -253,11 +254,12 @@ def main(no_model_grade: bool) -> None:
             console.print(f"  [red]No moves found for {species}, skipping[/red]")
             continue
 
+        rag_chunks = retrieve_rag_context(species)
         response = client.messages.create(
             model="claude-sonnet-4-6",
             max_tokens=1024,
             system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": build_user_message(species, moves, abilities, items)}],
+            messages=[{"role": "user", "content": build_user_message(species, moves, abilities, items, rag_chunks)}],
         )
         result = parse_response(response.content[0].text)
 

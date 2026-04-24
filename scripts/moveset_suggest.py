@@ -15,6 +15,8 @@ import sys
 from pathlib import Path
 
 import anthropic
+import chromadb
+from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
@@ -22,10 +24,12 @@ from rich.table import Table
 console = Console()
 
 # ── Data paths ────────────────────────────────────────────────────────────────
-DATA = Path(__file__).parents[1] / "data"
-MOVES_PATH      = DATA / "champions/moves.json"
-ABILITIES_PATH  = DATA / "champions/abilities.json"
-ITEMS_PATH      = DATA / "champions/legal_items.json"
+DATA           = Path(__file__).parents[1] / "data"
+MOVES_PATH     = DATA / "champions/moves.json"
+ABILITIES_PATH = DATA / "champions/abilities.json"
+ITEMS_PATH     = DATA / "champions/legal_items.json"
+CHROMADB_PATH  = DATA / "chromadb"
+RAG_TOP_K      = 4
 
 # ── Prompts ───────────────────────────────────────────────────────────────────
 
@@ -82,24 +86,32 @@ item choice rationale, and how this set fits into a doubles team]</reasoning>
 """
 
 
-def build_user_message(species: str, moves: list[str], abilities: list[str], items: list[str]) -> str:
-    return f"""\
-Build a competitive VGC doubles moveset for {species}.
+def build_user_message(species: str, moves: list[str], abilities: list[str], items: list[str], rag_chunks: list[str] | None = None) -> str:
+    lines = [f"Build a competitive VGC doubles moveset for {species}.\n"]
 
-<available_abilities>
-{chr(10).join(f"- {a}" for a in abilities)}
-</available_abilities>
+    if rag_chunks:
+        lines.append("<expert_commentary>")
+        lines.append("The following is commentary from top VGC players that may be relevant to this Pokemon:")
+        for chunk in rag_chunks:
+            lines.append(f"\n{chunk}")
+        lines.append("</expert_commentary>\n")
 
-<available_moves>
-{chr(10).join(f"- {m}" for m in moves)}
-</available_moves>
+    lines.append(f"<available_abilities>")
+    lines.extend(f"- {a}" for a in abilities)
+    lines.append("</available_abilities>\n")
 
-<legal_items>
-{chr(10).join(f"- {i}" for i in items[:60])}
-</legal_items>
+    lines.append("<available_moves>")
+    lines.extend(f"- {m}" for m in moves)
+    lines.append("</available_moves>\n")
 
-Recommend the strongest competitive set for {species} in Pokemon Champions doubles. \
-Choose only from the moves and abilities listed above, and only from the legal items list."""
+    lines.append("<legal_items>")
+    lines.extend(f"- {i}" for i in items[:60])
+    lines.append("</legal_items>\n")
+
+    lines.append(f"Recommend the strongest competitive set for {species} in Pokemon Champions doubles. "
+                 "Choose only from the moves and abilities listed above, and only from the legal items list.")
+
+    return "\n".join(lines)
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
@@ -129,6 +141,39 @@ def load_data(species: str) -> tuple[list[str], list[str], list[str]]:
     items = items_data.get("names", [])
 
     return moves, abilities, items
+
+
+# ── RAG retrieval ─────────────────────────────────────────────────────────────
+
+_chroma_collection = None
+
+def _get_collection():
+    global _chroma_collection
+    if _chroma_collection is None:
+        embed_fn = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+        client = chromadb.PersistentClient(path=str(CHROMADB_PATH))
+        _chroma_collection = client.get_or_create_collection(
+            "vgc_transcripts", embedding_function=embed_fn
+        )
+    return _chroma_collection
+
+
+def retrieve_rag_context(species: str) -> list[str]:
+    """Query ChromaDB for top player commentary relevant to this species."""
+    if not CHROMADB_PATH.exists():
+        return []
+    try:
+        col = _get_collection()
+        if col.count() == 0:
+            return []
+        query = f"{species} VGC moveset item EV spread role doubles strategy"
+        results = col.query(query_texts=[query], n_results=RAG_TOP_K, include=["documents", "metadatas"])
+        chunks = []
+        for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
+            chunks.append(f"[{meta['youtuber']} — {meta['source']}]\n{doc}")
+        return chunks
+    except Exception:
+        return []
 
 
 # ── XML parsing ───────────────────────────────────────────────────────────────
@@ -195,6 +240,11 @@ def main() -> None:
         sys.exit(1)
 
     console.print(f"  {len(moves)} moves, {len(abilities)} abilities, {len(items)} items loaded")
+
+    console.print("[dim]Retrieving context from ChromaDB...[/dim]")
+    rag_chunks = retrieve_rag_context(species)
+    console.print(f"  {len(rag_chunks)} relevant chunks retrieved")
+
     console.print("[dim]Asking Claude for a moveset recommendation...[/dim]\n")
 
     client = anthropic.Anthropic()
@@ -204,8 +254,8 @@ def main() -> None:
         system=SYSTEM_PROMPT,
         messages=[{
             "role": "user",
-            "content": build_user_message(species, moves, abilities, items)
-             }],
+            "content": build_user_message(species, moves, abilities, items, rag_chunks)
+        }],
     )
 
     raw = response.content[0].text
