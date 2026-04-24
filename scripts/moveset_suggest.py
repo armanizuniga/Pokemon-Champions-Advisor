@@ -57,12 +57,18 @@ shape how a moveset is built — include speed control where it fits the Pokemon
 - Item choice defines role. Choice Scarf for speed, Focus Sash for fragile setters, \
 Mega Stones to enable Mega Evolution, berries for situational bulk, type-boosting items \
 for wallbreakers. Match the item to the role, not the other way around.
+- Focus Sash is best suited for fragile leads that must survive one hit to set up \
+(e.g. Trick Room or Tailwind setters with low bulk). Avoid it on bulky Pokemon, \
+Mega Evolution users who need their Mega Stone, or Pokemon that typically come in \
+off the bench rather than leading.
 - Every move slot must earn its place. Four moves means four jobs: coverage, utility, \
 speed control, and/or protection (Protect is almost always worth a slot in doubles).
 - Consider mirror matchups. A few Speed EVs to edge out opposing same-species Pokemon \
 can decide games.
 - For Trick Room setters: minimize Speed EVs. For support Pokémon: Fake Out and Protect \
 are near-mandatory. For Mega Evolution users: always hold the corresponding Mega Stone.
+- If a pokemon has a mega evolution form, their mega form should be taken into account \
+along with their megastone
 
 ## Few-Shot Examples
 
@@ -148,7 +154,7 @@ def build_user_message(species: str, moves: list[str], abilities: list[str], ite
     lines.append("</available_moves>\n")
 
     lines.append("<legal_items>")
-    lines.extend(f"- {i}" for i in items[:60])
+    lines.extend(f"- {i}" for i in items)
     lines.append("</legal_items>\n")
 
     lines.append(f"Recommend the strongest competitive set for {species} in Pokemon Champions doubles. "
