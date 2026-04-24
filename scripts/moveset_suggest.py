@@ -42,6 +42,8 @@ Pokemon Champions — a doubles format featuring Mega Evolutions unique to this 
 - Players bring 4 of 6 Pokemon to each match
 - Mega Evolutions are available and common — factor them into team role planning
 - Only Champions-legal moves, abilities, and items may be recommended
+- You may ONLY suggest items from the legal_items list provided. Do not suggest Life Orb,
+  Choice Band, Choice Specs, or Assault Vest — these do not exist in this format
 
 ## Your Moveset Philosophy (from top player insights)
 - Speed tiers are critical. Max Speed is often correct — dropping speed investment \
@@ -49,6 +51,7 @@ means more Pokemon can outpace you, which loses games. Only drop speed when you 
 a specific bulk benchmark to hit.
 - EV spreads should target benchmarks, not default to 252/252/4. Ask: what does this \
 Pokemon need to survive, and what does it need to outspeed?
+- For example: 252 HP / 4 Def / 252 SpA Timid rather than arbitrary numbers
 - Speed control is a pillar of Champions. Icy Wind, Tailwind, and Trick Room all \
 shape how a moveset is built — include speed control where it fits the Pokemon's role.
 - Item choice defines role. Choice Scarf for speed, Focus Sash for fragile setters, \
@@ -58,6 +61,42 @@ for wallbreakers. Match the item to the role, not the other way around.
 speed control, and/or protection (Protect is almost always worth a slot in doubles).
 - Consider mirror matchups. A few Speed EVs to edge out opposing same-species Pokemon \
 can decide games.
+- For Trick Room setters: minimize Speed EVs. For support Pokémon: Fake Out and Protect \
+are near-mandatory. For Mega Evolution users: always hold the corresponding Mega Stone.
+
+## Few-Shot Examples
+
+Here are examples of strong movesets in this format:
+
+**Incineroar** (bulky support):
+<moveset>
+  <ability>Intimidate</ability>
+  <item>Sitrus Berry</item>
+  <nature>Careful</nature>
+  <evs><hp>252</hp><atk>4</atk><def>0</def><spa>0</spa><spd>252</spd><spe>0</spe></evs>
+  <moves>
+    <move>Fake Out</move>
+    <move>Parting Shot</move>
+    <move>Flare Blitz</move>
+    <move>Protect</move>
+  </moves>
+  <reasoning>Incineroar's role is disruption — Fake Out flinches on turn 1, Parting Shot pivots out while dropping the opponent's Attack and Special Attack, and Intimidate on switch-in compounds that debuff. Max HP / Max SpDef with Careful lets it take special hits reliably. Sitrus Berry extends survivability so it can Parting Shot multiple times in a game. Protect is mandatory in doubles to scout and stall. Speed investment is irrelevant — this Pokemon wants to be slower to control when it uses Parting Shot in Trick Room matchups.</reasoning>
+</moveset>
+
+**Garchomp** (fast physical attacker):
+<moveset>
+  <ability>Rough Skin</ability>
+  <item>Garchompite</item>
+  <nature>Jolly</nature>
+  <evs><hp>4</hp><atk>252</atk><def>0</def><spa>0</spa><spd>0</spd><spe>252</spe></evs>
+  <moves>
+    <move>Earthquake</move>
+    <move>Rock Slide</move>
+    <move>Icy Wind</move>
+    <move>Protect</move>
+  </moves>
+  <reasoning>Max Speed Jolly is required — dropping speed means opposing Garchomps and Adamant spreads can outpace you, which loses games. Garchompite enables Mega Evolution for greatly increased Attack and Speed. Earthquake and Rock Slide are the core spread damage moves in doubles. Icy Wind provides speed control that lets partners outpace after activation. Protect is mandatory every doubles set — scouting and surviving one turn of pressure is often game-deciding.</reasoning>
+</moveset>
 
 ## Output Format
 Always respond using these exact XML tags:
@@ -91,7 +130,11 @@ def build_user_message(species: str, moves: list[str], abilities: list[str], ite
 
     if rag_chunks:
         lines.append("<expert_commentary>")
-        lines.append("The following is commentary from top VGC players that may be relevant to this Pokemon:")
+        lines.append(
+            "The following is commentary from top VGC players about this Pokemon. "
+            "Use these insights to inform your EV benchmarks, item selection, move choices, and role framing. "
+            "Prioritize any specific numbers or strategies mentioned (e.g. speed tiers, key damage thresholds)."
+        )
         for chunk in rag_chunks:
             lines.append(f"\n{chunk}")
         lines.append("</expert_commentary>\n")
