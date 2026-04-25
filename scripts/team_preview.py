@@ -175,54 +175,72 @@ def load_pokemon_data(species: str) -> dict:
 
 # ── RAG ───────────────────────────────────────────────────────────────────────
 
-_chroma_collection = None
+_chroma_client = None
+_chroma_collections: dict = {}
 
-def _get_collection():
-    global _chroma_collection
-    if _chroma_collection is None:
+def _get_client():
+    global _chroma_client
+    if _chroma_client is None:
         embed_fn = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-        client = chromadb.PersistentClient(path=str(CHROMADB_PATH))
-        _chroma_collection = client.get_or_create_collection(
-            "vgc_transcripts", embedding_function=embed_fn
-        )
-    return _chroma_collection
+        _chroma_client = chromadb.PersistentClient(path=str(CHROMADB_PATH))
+        _chroma_client._embed_fn = embed_fn
+    return _chroma_client
+
+def _get_collection(name: str):
+    if name not in _chroma_collections:
+        client = _get_client()
+        try:
+            _chroma_collections[name] = client.get_collection(
+                name, embedding_function=client._embed_fn
+            )
+        except Exception:
+            return None
+    return _chroma_collections[name]
+
+
+def _format_chunk(doc: str, meta: dict) -> str:
+    if meta.get("source_type") == "web":
+        return f"[{meta['site']} — {meta['page_title']}]\n{doc}"
+    return f"[{meta.get('youtuber', '?')} — {meta.get('source', '?')}]\n{doc}"
 
 
 def retrieve_rag_context(species: str, top_k: int = RAG_TOP_K_USER) -> list[str]:
     if not CHROMADB_PATH.exists():
         return []
+    query  = f"{species} VGC moveset item EV spread role doubles strategy"
+    chunks = []
     try:
-        col = _get_collection()
-        if col.count() == 0:
-            return []
-        query = f"{species} VGC moveset item EV spread role doubles strategy"
-        results = col.query(query_texts=[query], n_results=top_k, include=["documents", "metadatas"])
-        chunks = []
-        for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
-            chunks.append(f"[{meta['youtuber']} — {meta['source']}]\n{doc}")
-        return chunks
+        for cname in ("vgc_transcripts", "vgc_web"):
+            col = _get_collection(cname)
+            if col is None or col.count() == 0:
+                continue
+            results = col.query(query_texts=[query], n_results=top_k, include=["documents", "metadatas"])
+            for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
+                chunks.append(_format_chunk(doc, meta))
     except Exception:
-        return []
+        pass
+    return chunks
 
 
 def retrieve_team_preview_context() -> list[str]:
     if not CHROMADB_PATH.exists():
         return []
+    chunks = []
     try:
-        col = _get_collection()
-        if col.count() == 0:
-            return []
-        chunks = []
         for query in [
             "team preview lead selection doubles VGC strategy",
             "which four to bring team building VGC doubles gameplan",
         ]:
-            results = col.query(query_texts=[query], n_results=2, include=["documents", "metadatas"])
-            for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
-                chunks.append(f"[{meta['youtuber']} — {meta['source']}]\n{doc}")
-        return chunks
+            for cname in ("vgc_transcripts", "vgc_web"):
+                col = _get_collection(cname)
+                if col is None or col.count() == 0:
+                    continue
+                results = col.query(query_texts=[query], n_results=2, include=["documents", "metadatas"])
+                for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
+                    chunks.append(_format_chunk(doc, meta))
     except Exception:
-        return []
+        pass
+    return chunks
 
 
 # ── Damage calc tool ──────────────────────────────────────────────────────────
