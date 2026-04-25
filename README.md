@@ -18,7 +18,7 @@ A competitive advisor for **Pokémon Champions** — a doubles VGC format. Built
 | 1 | Single Pokémon moveset suggestion | ✅ Done |
 | 2 | 12-Pokémon team preview → which 4 to bring, lead pair, opponent prediction | ✅ Done |
 | 3 | 2v2 field state → turn-by-turn battle analysis | ✅ Done |
-| 4 | FastAPI backend + React web app | Planned |
+| 4 | FastAPI backend + React web app | ✅ Done |
 | 5 | React Native iOS app | Planned |
 
 ## Setup
@@ -37,10 +37,24 @@ cp .env.example .env
 
 # Node bridge (one-time — needed for damage calculations)
 bash scripts/setup_node.sh
+
+# Frontend dependencies
+cd frontend && npm install && cd ..
 ```
 
 ## Usage
 
+**Web app (Phase 4)**
+```bash
+# Terminal 1 — backend
+ANTHROPIC_API_KEY=your_key uvicorn backend.main:app --reload
+
+# Terminal 2 — frontend
+cd frontend && npm run dev
+# Open http://localhost:5173
+```
+
+**CLI tools**
 ```bash
 # Suggest a moveset for a single Pokémon
 python scripts/moveset_suggest.py Garchomp
@@ -154,10 +168,28 @@ python scripts/fetch_champions_moves.py
 - Item pool differs significantly from standard VGC — no Life Orb, Choice Band, or Assault Vest
 - Items are primarily Mega Stones, berries, type-boosting items, Focus Sash, Choice Scarf
 
+**Phase 4 — Web app**
+```
+Browser (React)
+     │  fetch('/api/analyze', battleState)
+     ▼
+Vite proxy → FastAPI (port 8000)
+     │  run_analysis(state)
+     │    → ChromaDB RAG
+     │    → calc_bridge.js damage matrix
+     │    → Claude API
+     ▼
+JSON { recommendation, damage_matrix }
+     ▼
+React renders analysis panel
+```
+
 ## Tech Stack
 
-- **Claude API** (`claude-sonnet-4-6`) — moveset generation and model-based eval grading
+- **Claude API** (`claude-sonnet-4-6`) — analysis, moveset generation, model-based eval grading
+- **FastAPI** + **uvicorn** — Python backend serving the `/api/analyze` endpoint
+- **React** + **Vite** — interactive battle dashboard UI
 - **ChromaDB** + `sentence-transformers` — local vector store for RAG
 - **@smogon/calc** (Node.js) — damage calculation bridge
 - **httpx** + **BeautifulSoup** — Serebii scraping
-- **rich** + **click** — terminal UI
+- **rich** + **click** — terminal UI (CLI scripts)

@@ -1,0 +1,71 @@
+{
+  "turn": 1,
+  "your_active": [
+    {
+      "species": "Garchomp",
+      "hp_percent": 1.0,
+      "item": "Garchompite",
+      "ability": "Rough Skin",
+      "status": null,
+      "boosts": {"atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0},
+      "moves": ["Earthquake", "Rock Slide", "Icy Wind", "Protect"]
+    },
+    {
+      "species": "Incineroar",
+      "hp_percent": 1.0,
+      "item": "Sitrus Berry",
+      "ability": "Intimidate",
+      "status": null,
+      "boosts": {"atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0},
+      "moves": ["Fake Out", "Flare Blitz", "Parting Shot", "Protect"]
+    }
+  ],
+  "opponent_active": [
+    {
+      "species": "Torkoal",
+      "hp_percent": 1.0,
+      "item": null,
+      "ability": "Drought",
+      "status": null,
+      "boosts": {},
+      "moves": []
+    },
+    {
+      "species": "Venusaur",
+      "hp_percent": 1.0,
+      "item": null,
+      "ability": "Chlorophyll",
+      "status": null,
+      "boosts": {},
+      "moves": []
+    }
+  ],
+  "your_back": [
+    {"species": "Arcanine", "hp_percent": 1.0},
+    {"species": "Rillaboom", "hp_percent": 1.0}
+  ],
+  "opponent_back": [
+    {"species": "Grimmsnarl", "hp_percent": 1.0},
+    {"species": "Tyranitar", "hp_percent": 1.0}
+  ],
+  "field": {
+    "weather": "Sun",
+    "terrain": null,
+    "trick_room": false,
+    "trick_room_turns": 0,
+    "tailwind_your_side": false,
+    "tailwind_your_turns": 0,
+    "tailwind_opponent_side": false,
+    "tailwind_opponent_turns": 0,
+    "screens_your_side": {
+      "reflect": false,
+      "light_screen": false,
+      "aurora_veil": false
+    },
+    "screens_opponent_side": {
+      "reflect": false,
+      "light_screen": false,
+      "aurora_veil": false
+    }
+  }
+}

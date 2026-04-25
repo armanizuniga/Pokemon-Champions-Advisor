@@ -1,14 +1,16 @@
 venv/
 source/
 .idea/
-__pycache__/
+**/__pycache__/
 *.pyc
 .env
 .DS_Store
 **/.DS_Store
 node/node_modules/
+frontend/node_modules/
 data/cache/
 data/debug/
 data/transcripts/
+data/prompt_improvements/
 scripts/ingest_transcripts.py
 data/eval/results/
