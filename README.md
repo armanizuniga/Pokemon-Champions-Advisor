@@ -47,8 +47,8 @@ python scripts/moveset_suggest.py "Mr. Rime"
 
 # Team preview — your 6 vs opponent's 6
 python scripts/team_preview.py \
-  "Garchomp,Incineroar,Urshifu,Rillaboom,Arcanine,Tornadus" \
-  "Zacian,Calyrex,Regieleki,Grimmsnarl,Incineroar,Landorus"
+  "Umbreon,Ceruledge,Altaria,Glimmora,Gallade,Floette" \
+  "Cofagrigus,Camerupt,Wyrdeer,Skeledirge,Beartic,Tauros"
 
 # Run the prompt eval suite
 python scripts/eval_moveset.py                  # full eval with model and code grading
@@ -88,7 +88,7 @@ Claude API call          System prompt + all 12 Pokémon data + RAG context
      │                   Tool: run_damage_calcs (batched)
      ▼
 Tool use loop            Claude calls damage calc as needed → calc_bridge.js via Node
-     │                   Returns OHKO/2HKO results per matchup
+     │                   Returns damage calcs results per matchup
      ▼
 Final response           XML: bring 4, lead 2, back 2, opponent prediction, contingency
      │
