@@ -1,0 +1,10950 @@
+{
+  "abomasnow": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "abomasnow-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "absol": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "absol-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "absol-mega-z": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aegislash-shield": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aegislash-blade": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aerodactyl": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aerodactyl-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aggron": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aggron-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "alakazam": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "alakazam-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "alcremie": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "alcremie-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "altaria": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "altaria-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ampharos": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ampharos-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "appletun": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "appletun-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "araquanid": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "araquanid-totem": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "arbok": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "arcanine": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "arcanine-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "archaludon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ariados": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "armarouge": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aromatisse": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "audino": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "audino-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "aurorus": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "avalugg": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "avalugg-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "azumarill": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "banette": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "banette-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "basculegion-male": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "basculegion-female": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "bastiodon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "beartic": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "beedrill": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "beedrill-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "bellibolt": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "blastoise": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "blastoise-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "blastoise-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "camerupt": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "camerupt-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "castform": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "castform-sunny": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "castform-rainy": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "castform-snowy": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ceruledge": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chandelure": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chandelure-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "charizard": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "charizard-mega-x": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "charizard-mega-y": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "charizard-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chesnaught": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chesnaught-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chimecho": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "chimecho-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "clawitzer": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "clefable": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "clefable-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "cofagrigus": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "conkeldurr": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "corviknight": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "corviknight-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "crabominable": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "crabominable-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "decidueye": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "decidueye-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "dedenne": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "delphox": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "delphox-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "diggersby": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ditto": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "dragapult": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "dragonite": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "dragonite-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "drampa": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "drampa-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "emboar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "emboar-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "emolga": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "empoleon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "espathra": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "espeon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "excadrill": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "excadrill-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "farigiraf": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "feraligatr": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "feraligatr-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "flapple": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "flapple-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "flareon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "floette": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "floette-eternal": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "floette-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "florges": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "forretress": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "froslass": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "froslass-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "furfrou": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gallade": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gallade-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garbodor": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garbodor-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garchomp": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garchomp-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garchomp-mega-z": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gardevoir": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gardevoir-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "garganacl": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gengar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gengar-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gengar-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "glaceon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "glalie": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "glalie-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "glimmora": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "glimmora-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gliscor": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "golurk": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "golurk-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "goodra": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "goodra-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gourgeist-average": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gourgeist-small": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gourgeist-large": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gourgeist-super": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "greninja": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "greninja-battle-bond": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "greninja-ash": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "greninja-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gyarados": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "gyarados-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hatterene": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hatterene-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hawlucha": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hawlucha-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "heliolisk": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "heracross": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "heracross-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hippowdon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "houndoom": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "houndoom-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hydrapple": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "hydreigon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "incineroar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "infernape": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "jolteon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kangaskhan": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kangaskhan-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kingambit": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kleavor": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "klefki": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kommo-o": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "kommo-o-totem": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "krookodile": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "leafeon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "liepard": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lopunny": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lopunny-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lucario": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lucario-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lucario-mega-z": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "luxray": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lycanroc-midday": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lycanroc-midnight": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "lycanroc-dusk": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "machamp": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "machamp-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mamoswine": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "manectric": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "manectric-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "maushold-family-of-four": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "maushold-family-of-three": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "medicham": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "medicham-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meganium": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meganium-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meowscarada": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meowstic-male": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meowstic-female": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "meowstic-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "milotic": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mimikyu-disguised": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mimikyu-busted": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mimikyu-totem-disguised": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mimikyu-totem-busted": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "morpeko-full-belly": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "morpeko-hangry": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mr-rime": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "mudsdale": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ninetales": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "ninetales-alola": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "noivern": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "oranguru": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "orthworm": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "palafin-zero": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "palafin-hero": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pangoro": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "passimian": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pelipper": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pidgeot": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pidgeot-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-rock-star": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-belle": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-pop-star": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-phd": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-libre": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-cosplay": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-original-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-hoenn-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-sinnoh-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-unova-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-kalos-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-alola-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-partner-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-starter": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-world-cap": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pikachu-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pinsir": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "pinsir-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "politoed": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "polteageist": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "primarina": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "quaquaval": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "raichu": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "raichu-alola": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "raichu-mega-x": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "raichu-mega-y": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rampardos": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "reuniclus": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rhyperior": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "roserade": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom-heat": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom-wash": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom-frost": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom-fan": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "rotom-mow": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "runerigus": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sableye": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sableye-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "salazzle": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "salazzle-totem": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "samurott": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "samurott-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sandaconda": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sandaconda-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "scizor": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "scizor-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "scovillain": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "scovillain-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "serperior": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sharpedo": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sharpedo-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "simipour": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "simisage": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "simisear": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sinistcha": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "skarmory": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "skarmory-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "skeledirge": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slowbro": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slowbro-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slowbro-galar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slowking": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slowking-galar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "slurpuff": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sneasler": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "snorlax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "snorlax-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "spiritomb": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "starmie": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "starmie-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "steelix": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "steelix-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "stunfisk": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "stunfisk-galar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "sylveon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "talonflame": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tauros": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tauros-paldea-combat-breed": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tauros-paldea-blaze-breed": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tauros-paldea-aqua-breed": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tinkaton": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "torkoal": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "torterra": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "toucannon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "toxapex": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "toxicroak": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "trevenant": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tsareena": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "typhlosion": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "typhlosion-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tyranitar": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tyranitar-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "tyrantrum": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "umbreon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "vanilluxe": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "vaporeon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "venusaur": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "venusaur-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "venusaur-gmax": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "victreebel": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "victreebel-mega": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "vivillon": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "volcarona": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "watchog": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "weavile": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "whimsicott": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "wyrdeer": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spa": 0,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "zoroark": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  },
+  "zoroark-hisui": {
+    "max_offense": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    },
+    "max_bulk": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spa": 0,
+      "spd": 128,
+      "spe": 0
+    },
+    "trick_room": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 4,
+      "spe": 0
+    },
+    "max_speed": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spa": 252,
+      "spd": 0,
+      "spe": 252
+    }
+  }
+}

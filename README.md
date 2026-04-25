@@ -5,16 +5,17 @@ A competitive advisor for **Pokémon Champions** — a doubles VGC format. Built
 ## What it does
 
 - Recommends competitive movesets, items, abilities, and EV spreads for any legal Pokémon
-- Recommendations from Champions-legal data (moves, abilities, items)
-- Uses RAG retrieval from forums and YouTube videos of top VGC players to inform strategy
-- Validates output with a prompt eval suite — code-based and model-based grading — so prompt improvements are measurable
+- Analyzes a full 12-Pokémon team preview (your 6 vs opponent's 6) and recommends which 4 to bring, who to lead, and predicts the opponent's gameplan
+- Runs live damage calculations via the Smogon calc to verify KO thresholds before making recommendations
+- Pulls expert strategy from top VGC player commentary via RAG retrieval (ChromaDB)
+- Validates moveset output with a prompt eval suite — code-based and model-based grading
 
 ## Roadmap
 
 | Phase | Feature | Status |
 |-------|---------|--------|
-| 1 | Single Pokémon moveset suggestion | ✅ Current |
-| 2 | Full team of 6 → recommend 4 to bring + lead pair | Planned |
+| 1 | Single Pokémon moveset suggestion | ✅ Done |
+| 2 | 12-Pokémon team preview → which 4 to bring, lead pair, opponent prediction | ✅ Done |
 | 3 | 2v2 field state → turn-by-turn battle analysis | Planned |
 | 4 | FastAPI backend + React web app | Planned |
 | 5 | React Native iOS app | Planned |
@@ -40,9 +41,14 @@ bash scripts/setup_node.sh
 ## Usage
 
 ```bash
-# Suggest a moveset for a Pokémon
+# Suggest a moveset for a single Pokémon
 python scripts/moveset_suggest.py Garchomp
 python scripts/moveset_suggest.py "Mr. Rime"
+
+# Team preview — your 6 vs opponent's 6
+python scripts/team_preview.py \
+  "Garchomp,Incineroar,Urshifu,Rillaboom,Arcanine,Tornadus" \
+  "Zacian,Calyrex,Regieleki,Grimmsnarl,Incineroar,Landorus"
 
 # Run the prompt eval suite
 python scripts/eval_moveset.py                  # full eval with model and code grading
@@ -50,20 +56,44 @@ python scripts/eval_moveset.py                  # full eval with model and code 
 
 ## How it works
 
+**Phase 1 — Moveset suggestion**
 ```
 Pokémon name
      │
      ▼
-Load legal data          champions/moves.json + abilities.json + legal_items.json
+Load legal data          moves.json + abilities.json + legal_items.json
      │
      ▼
-RAG retrieval            ChromaDB query → relevant chunks from forums and expert knowledge
+RAG retrieval            ChromaDB → expert commentary chunks for this Pokémon
      │
      ▼
-Claude API call          System prompt + Pokémon data + RAG context → XML response
+Claude API call          System prompt + data + RAG → XML moveset response
      │
      ▼
 Parse + display          Extract XML tags → rich terminal output
+```
+
+**Phase 2 — Team preview**
+```
+Your 6 + Opponent's 6
+     │
+     ▼
+Load legal data          moves + abilities + base stats + EV templates for all 12
+     │
+     ▼
+RAG retrieval            ChromaDB → user team (TOP_K=2) + opponent team (TOP_K=1) + team strategy
+     │
+     ▼
+Claude API call          System prompt + all 12 Pokémon data + RAG context
+     │                   Tool: run_damage_calcs (batched)
+     ▼
+Tool use loop            Claude calls damage calc as needed → calc_bridge.js via Node
+     │                   Returns OHKO/2HKO results per matchup
+     ▼
+Final response           XML: bring 4, lead 2, back 2, opponent prediction, contingency
+     │
+     ▼
+Parse + display          Rich terminal panels
 ```
 
 ## Data
@@ -83,6 +113,7 @@ python scripts/fetch_champions_moves.py
 | `data/champions/moves.json` | Serebii | Legal moves per Pokémon |
 | `data/champions/abilities.json` | Serebii | Legal abilities per form |
 | `data/champions/legal_items.json` | Serebii | Legal held items + effects |
+| `data/champions/ev_templates.json` | Generated | 4 EV presets per species for damage calc |
 | `data/pokeapi/base_stats.json` | PokeAPI | Base stats for all Pokémon + megas |
 | `data/smogon/gen9vgc.json` | Smogon | Competitive sets filtered to legal items |
 | `data/chromadb/` | Local | ChromaDB vector store (~11MB) |

@@ -37,11 +37,13 @@ bash scripts/setup_node.sh
 
 ## Project Direction
 
-Building incrementally toward a full VGC battle advisor following the Anthropic Claude API Coursera course structure. Current phase: single Pokemon moveset suggestion with prompt evaluation.
+Building incrementally toward a full VGC battle advisor following the Anthropic Claude API Coursera course structure. Current phase: team preview (12-Pokemon analysis with damage calc tool use).
 
-Planned features in order:
-1. Single Pokemon moveset suggestion (current)
-2. Full team of 6 → suggest which 4 to bring + lead pair
+Completed phases:
+1. Single Pokemon moveset suggestion ✅
+2. 12-Pokemon team preview — which 4 to bring, lead pair, back pair, opponent gameplan prediction ✅
+
+Planned phases:
 3. 2v2 field state → turn-by-turn battle analysis
 4. FastAPI backend + React frontend
 5. iOS app via React Native
@@ -50,6 +52,8 @@ Planned features in order:
 
 ### Scripts (`scripts/`)
 - `moveset_suggest.py` — Phase 1 core: takes a species name, loads legal data, queries ChromaDB for relevant player commentary (RAG), asks Claude for a moveset recommendation with XML structured output
+- `team_preview.py` — Phase 2 core: takes two teams of 6, loads data + RAG for all 12, runs Claude tool use with damage calc to recommend which 4 to bring, lead pair, back pair, and opponent gameplan prediction
+- `generate_ev_templates.py` — Generates `data/champions/ev_templates.json` with 4 EV presets per species (max_offense, max_bulk, trick_room, max_speed) used by the damage calc tool
 - `eval_moveset.py` — Eval runner: runs all 15 eval dataset Pokemon through the full pipeline (including RAG), grades with code-based + model-based checks, saves timestamped results for baseline comparison
 - `fetch_champions_data.py` — Scrapes Serebii for legal Pokemon + items, fetches base stats from PokeAPI for all species + forms/megas, filters Smogon sets to legal items
 - `fetch_champions_moves.py` — Scrapes Champions Pokedex on Serebii for legal move pools and abilities per species in one pass
@@ -57,12 +61,13 @@ Planned features in order:
 - `setup_node.sh` — One-time setup for the Node.js damage calc bridge
 
 ### Node Bridge (`node/`)
-- `calc_bridge.js` — Reads JSON from stdin, runs `@smogon/calc` damage calculations, writes results to stdout. Used for validating move damage in future tool use phase.
+- `calc_bridge.js` — Reads a JSON array of calc requests from stdin, runs `@smogon/calc` damage calculations in batch, writes results to stdout. Used by `team_preview.py` via Claude tool use.
 
 ### Data (`data/`)
 - `champions/moves.json` — Champions-legal moves per species keyed by Serebii slug
 - `champions/abilities.json` — Legal abilities per form (base + mega) keyed by slug
 - `champions/legal_items.json` — Legal items list with effect descriptions
+- `champions/ev_templates.json` — 4 EV presets per species for damage calc tool use (max_offense, max_bulk, trick_room, max_speed)
 - `pokeapi/base_stats.json` — Base stats for all legal species + mega/form variants
 - `smogon/gen9vgc.json` — Smogon competitive sets filtered to Champions-legal items
 - `eval/moveset_eval_dataset.json` — 15 Pokemon test cases with expected grading criteria
