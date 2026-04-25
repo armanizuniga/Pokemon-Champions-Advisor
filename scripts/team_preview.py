@@ -130,8 +130,10 @@ Respond using these exact XML tags:
   <back>[Pokemon 3], [Pokemon 4]</back>
   <opponent_lead>[predicted opponent lead pair]</opponent_lead>
   <opponent_gameplan>[their likely win condition and strategy]</opponent_gameplan>
-  <contingency>[if opponent surprises with X, pivot to Y]</contingency>
-  <reasoning>[full explanation: why these 4, why this lead, damage calc results referenced, speed tier analysis]</reasoning>
+  <contingency>[2 sentences max: if opponent surprises with X, pivot to Y and why]</contingency>
+  <turn_by_turn>[Turn 1: what each lead does and why. Turn 2: follow-up based on Turn 1 outcome. Turn 3: win condition or pivot.]</turn_by_turn>
+  <speed_tiers>[All 12 Pokemon sorted fastest to slowest: Name (base spe) > Name (base spe) > ...]</speed_tiers>
+  <reasoning>[2-3 sentences: why these 4, why this lead, key damage calc findings]</reasoning>
 </team_preview>
 """
 
@@ -346,13 +348,39 @@ def parse_response(text: str) -> dict:
         "opponent_lead":     extract_tag(text, "opponent_lead"),
         "opponent_gameplan": extract_tag(text, "opponent_gameplan"),
         "contingency":       extract_tag(text, "contingency"),
+        "turn_by_turn":      extract_tag(text, "turn_by_turn"),
+        "speed_tiers":       extract_tag(text, "speed_tiers"),
         "reasoning":         extract_tag(text, "reasoning"),
     }
 
 
 # ── Display ───────────────────────────────────────────────────────────────────
 
-def display_result(result: dict) -> None:
+def _lead_calc_rows(all_calcs: list, lead_names: set, opponent_lead_names: set) -> str:
+    """Format damage calcs involving the lead Pokemon as compact text."""
+    rows = []
+    for calc_input, calc_result in all_calcs:
+        a = calc_result.get("attacker", "")
+        d = calc_result.get("defender", "")
+        if not ({a.lower(), d.lower()} & (lead_names | opponent_lead_names)):
+            continue
+        if calc_result.get("error"):
+            continue
+        lo, hi  = calc_result["damage_range"]
+        max_hp  = calc_result["defender_max_hp"] or 1
+        pct_lo  = round(lo / max_hp * 100)
+        pct_hi  = round(hi / max_hp * 100)
+        ko_tag  = " [OHKO]" if calc_result["is_ohko"] else " [2HKO]" if calc_result["is_2hko"] else ""
+        rows.append(f"{a} → {calc_result['move']} → {d}: {pct_lo}-{pct_hi}%{ko_tag}")
+    return "\n".join(rows) if rows else "—"
+
+
+def display_result(result: dict, all_calcs: list) -> None:
+    # Parse lead names for filtering
+    lead_names          = {n.strip().lower() for n in result["lead"].split(",")}
+    opponent_lead_names = {n.strip().lower() for n in result["opponent_lead"].split(",")}
+
+    # ── Green summary panel ───────────────────────────────────────────────────
     table = Table(show_header=False, box=None, padding=(0, 1))
     table.add_column(style="bold cyan", width=20)
     table.add_column()
@@ -364,8 +392,57 @@ def display_result(result: dict) -> None:
     table.add_row("Opponent Gameplan", result["opponent_gameplan"])
     table.add_row("Contingency",       result["contingency"])
 
+    if result["turn_by_turn"]:
+        table.add_row("Turn by Turn",  result["turn_by_turn"])
+
+    if result["speed_tiers"]:
+        table.add_row("Speed Tiers",   result["speed_tiers"])
+
+    lead_calcs_text = _lead_calc_rows(all_calcs, lead_names, opponent_lead_names)
+    table.add_row("Lead Calcs",        lead_calcs_text)
+
     console.print(Panel(table, title="[bold]Team Preview Recommendation[/bold]", border_style="green"))
-    console.print(Panel(result["reasoning"], title="Reasoning", border_style="dim"))
+
+    # ── Reasoning panel ───────────────────────────────────────────────────────
+    if result["reasoning"]:
+        console.print(Panel(result["reasoning"], title="Reasoning", border_style="dim"))
+
+    # ── Full damage calc table ────────────────────────────────────────────────
+    if all_calcs:
+        calc_table = Table(title="Damage Calculations", border_style="dim", show_lines=True)
+        calc_table.add_column("Attacker",  style="cyan",  no_wrap=True)
+        calc_table.add_column("Spread",    style="dim",   no_wrap=True)
+        calc_table.add_column("Move",      no_wrap=True)
+        calc_table.add_column("Defender",  style="cyan",  no_wrap=True)
+        calc_table.add_column("Spread",    style="dim",   no_wrap=True)
+        calc_table.add_column("Dmg Range", justify="right")
+        calc_table.add_column("% HP",      justify="right")
+        calc_table.add_column("Result",    justify="center")
+
+        for calc_input, calc_result in all_calcs:
+            if calc_result.get("error"):
+                continue
+            lo, hi  = calc_result["damage_range"]
+            max_hp  = calc_result["defender_max_hp"] or 1
+            pct_lo  = round(lo / max_hp * 100)
+            pct_hi  = round(hi / max_hp * 100)
+            result_str = (
+                "[bold red]OHKO[/bold red]"  if calc_result["is_ohko"]  else
+                "[yellow]2HKO[/yellow]"      if calc_result["is_2hko"]  else
+                "—"
+            )
+            calc_table.add_row(
+                calc_result["attacker"],
+                calc_input.get("attacker_spread", ""),
+                calc_result["move"],
+                calc_result["defender"],
+                calc_input.get("defender_spread", ""),
+                f"{lo}-{hi}",
+                f"{pct_lo}-{pct_hi}%",
+                result_str,
+            )
+
+        console.print(calc_table)
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -408,6 +485,8 @@ def main() -> None:
 
     # Tool use loop
     tool_call_count = 0
+    all_calcs       = []  # list of (calc_input, calc_result) for display
+
     while True:
         response = client.messages.create(
             model="claude-sonnet-4-6",
@@ -442,6 +521,7 @@ def main() -> None:
             console.print(f"  [dim]Damage calc batch #{tool_call_count}: {len(calcs)} calculation(s)[/dim]")
 
             results = run_damage_calcs(calcs, all_pokemon)
+            all_calcs.extend(zip(calcs, results))
 
             tool_results.append({
                 "type":        "tool_result",
@@ -452,7 +532,7 @@ def main() -> None:
         messages.append({"role": "user", "content": tool_results})
 
     result = parse_response(text_content)
-    display_result(result)
+    display_result(result, all_calcs)
 
 
 if __name__ == "__main__":
