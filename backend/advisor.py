@@ -128,6 +128,36 @@ def load_items() -> list:
     return data.get("items", data) if isinstance(data, dict) else data
 
 
+_SPECIAL_NAMES: dict[str, str] = {
+    "mr-mime":       "Mr. Mime",
+    "mr-rime":       "Mr. Rime",
+    "mr-mime-galar": "Mr. Mime (Galar)",
+    "ho-oh":         "Ho-Oh",
+    "porygon-z":     "Porygon-Z",
+    "jangmo-o":      "Jangmo-o",
+    "hakamo-o":      "Hakamo-o",
+    "kommo-o":       "Kommo-o",
+    "chi-yu":        "Chi-Yu",
+    "chien-pao":     "Chien-Pao",
+    "ting-lu":       "Ting-Lu",
+    "wo-chien":      "Wo-Chien",
+}
+
+
+def _slug_to_name(slug: str) -> str:
+    if slug in _SPECIAL_NAMES:
+        return _SPECIAL_NAMES[slug]
+    return " ".join(w.capitalize() for w in slug.split("-"))
+
+
+def list_pokemon() -> list[dict]:
+    data = _load_json(BASE_STATS_PATH)
+    return sorted(
+        [{"slug": slug, "name": _slug_to_name(slug)} for slug in data],
+        key=lambda x: x["name"],
+    )
+
+
 # ── RAG ────────────────────────────────────────────────────────────────────────
 
 _chroma_client = None

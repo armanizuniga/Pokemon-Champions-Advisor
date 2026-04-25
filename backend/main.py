@@ -17,7 +17,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.advisor import load_pokemon_data, load_items, run_analysis
+from backend.advisor import load_pokemon_data, load_items, list_pokemon, run_analysis
 
 app = FastAPI(title="Champions VGC Advisor", version="0.1.0")
 
@@ -54,6 +54,13 @@ async def analyze(state: BattleState):
         raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Analysis failed: {e}")
+
+
+# ── GET /api/pokemon ─────────────────────────────────────────────────────────
+
+@app.get("/api/pokemon")
+async def list_pokemon_endpoint():
+    return list_pokemon()
 
 
 # ── GET /api/pokemon/{species} ────────────────────────────────────────────────

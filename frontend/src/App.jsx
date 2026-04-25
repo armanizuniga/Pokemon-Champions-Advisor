@@ -1,30 +1,47 @@
-import { useState, useCallback } from 'react';
-import TeamPreview from './components/TeamPreview';
+import { useState, useCallback, useEffect } from 'react';
 import FieldBar, { SideStateBar } from './components/FieldBar';
 import PokemonCard from './components/PokemonCard';
 import AnalysisPanel from './components/AnalysisPanel';
-import {
-  INITIAL_ALLIES, INITIAL_OPPONENTS,
-  INITIAL_ALLY_TEAM, INITIAL_OPP_TEAM,
-  INITIAL_BACK, makeMonState,
-} from './data/initialState';
+import PokemonSlotPicker from './components/PokemonSlotPicker';
+import { makeMonState } from './data/initialState';
 
-function initMonStates(mons) {
-  const s = {};
-  mons.forEach(m => { s[m.id] = makeMonState(m); });
-  return s;
+const makeEmpty6 = () => [null, null, null, null, null, null];
+
+function buildMonFromApiData(slug, name, apiData, side, loadMoves) {
+  const b = apiData.base_stats || {};
+  const stats = {
+    hp:  (b.hp  || 50) + 60,
+    atk: (b.atk || 50) + 5,
+    def: (b.def || 50) + 5,
+    spa: (b.spa || 50) + 5,
+    spd: (b.spd || 50) + 5,
+    spe: (b.spe || 50) + 5,
+  };
+  return {
+    id:        `${side}-${slug}`,
+    name,
+    types:     [],
+    ability:   apiData.abilities?.[0] ?? null,
+    item:      null,
+    nature:    null,
+    level:     50,
+    baseStats: b,
+    evs:       { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 },
+    stats,
+    moves:     loadMoves ? (apiData.moves || []).slice(0, 4).map(m => ({ name: m })) : [],
+  };
 }
 
 export default function App() {
-  const [allies]    = useState(INITIAL_ALLIES);
-  const [opponents] = useState(INITIAL_OPPONENTS);
-
-  const [monStates, setMonStates] = useState(() =>
-    initMonStates([...INITIAL_ALLIES, ...INITIAL_OPPONENTS])
-  );
+  const [pokemonList, setPokemonList] = useState([]);
+  const [allySlots,   setAllySlots]   = useState(makeEmpty6);
+  const [oppSlots,    setOppSlots]    = useState(makeEmpty6);
+  const [allies,      setAllies]      = useState([null, null]);
+  const [opponents,   setOpponents]   = useState([null, null]);
+  const [monStates,   setMonStates]   = useState({});
 
   const [field, setField] = useState({
-    weather: 'sun', terrain: 'none', trickRoom: false, gravity: false, turn: 1,
+    weather: 'none', terrain: 'none', trickRoom: false, gravity: false, turn: 1,
   });
 
   const [allySide, setAllySide] = useState(
@@ -34,19 +51,54 @@ export default function App() {
     { reflect: false, lightScreen: false, tailwind: false, stealthRock: false }
   );
 
-  const [activeAttacker, setActiveAttacker] = useState(allies[0].id);
+  const [activeAttacker, setActiveAttacker] = useState(null);
   const [selectedMove,   setSelectedMove]   = useState(null);
+
+  useEffect(() => {
+    fetch('/api/pokemon')
+      .then(r => r.ok ? r.json() : [])
+      .then(list => setPokemonList(list))
+      .catch(() => {});
+  }, []);
 
   const updateMon = useCallback((id, patch) => {
     setMonStates(prev => ({ ...prev, [id]: { ...prev[id], ...patch } }));
   }, []);
 
+  async function handleSlotSelect(index, slug, name, side, setSlots, setActive, loadMoves) {
+    if (index >= 2) {
+      setSlots(prev => { const n = [...prev]; n[index] = { slug, name }; return n; });
+      return;
+    }
+    try {
+      const res = await fetch(`/api/pokemon/${slug}`);
+      if (!res.ok) return;
+      const data = await res.json();
+      const mon  = buildMonFromApiData(slug, name, data, side, loadMoves);
+      setSlots(prev    => { const n = [...prev]; n[index] = { slug, name }; return n; });
+      setActive(prev   => { const n = [...prev]; n[index] = mon;            return n; });
+      setMonStates(prev => ({ ...prev, [mon.id]: makeMonState(mon) }));
+    } catch {}
+  }
+
+  function handleSlotClear(index, setSlots, setActive) {
+    setSlots(prev => { const n = [...prev]; n[index] = null; return n; });
+    if (index < 2) {
+      setActive(prev => { const n = [...prev]; n[index] = null; return n; });
+    }
+  }
+
   function resetBoard() {
-    setMonStates(initMonStates([...INITIAL_ALLIES, ...INITIAL_OPPONENTS]));
-    setField({ weather: 'sun', terrain: 'none', trickRoom: false, gravity: false, turn: 1 });
+    setAllySlots(makeEmpty6());
+    setOppSlots(makeEmpty6());
+    setAllies([null, null]);
+    setOpponents([null, null]);
+    setMonStates({});
+    setField({ weather: 'none', terrain: 'none', trickRoom: false, gravity: false, turn: 1 });
     setAllySide({ reflect: false, lightScreen: false, tailwind: false, stealthRock: false });
     setOppSide({ reflect: false, lightScreen: false, tailwind: false, stealthRock: false });
     setSelectedMove(null);
+    setActiveAttacker(null);
   }
 
   const buildPayload = useCallback(() => {
@@ -57,17 +109,17 @@ export default function App() {
       ability:    mon.ability || null,
       status:     state.status !== 'none' ? state.status : null,
       boosts:     state.stages,
-      moves:      mon.moves.map(m => m.name),
+      moves:      mon.moves.map(m => typeof m === 'string' ? m : m.name),
     });
 
     const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
 
     return {
       turn:            field.turn,
-      your_active:     allies.map(m => monToPayload(m, monStates[m.id])),
-      opponent_active: opponents.map(m => monToPayload(m, monStates[m.id])),
-      your_back:       INITIAL_BACK.ally.map(b => ({ species: b.name, hp_percent: b.hpPercent })),
-      opponent_back:   INITIAL_BACK.opp.map(b => ({ species: b.name, hp_percent: b.hpPercent })),
+      your_active:     allies.filter(Boolean).map(m => monToPayload(m, monStates[m.id])),
+      opponent_active: opponents.filter(Boolean).map(m => monToPayload(m, monStates[m.id])),
+      your_back:       allySlots.slice(2).filter(Boolean).map(s => ({ species: s.name, hp_percent: 1.0 })),
+      opponent_back:   oppSlots.slice(2).filter(Boolean).map(s => ({ species: s.name, hp_percent: 1.0 })),
       field: {
         weather:                field.weather !== 'none' ? cap(field.weather) : null,
         terrain:                field.terrain !== 'none' ? cap(field.terrain) : null,
@@ -81,7 +133,16 @@ export default function App() {
         screens_opponent_side: { reflect: oppSide.reflect,  light_screen: oppSide.lightScreen,  aurora_veil: false },
       },
     };
-  }, [allies, opponents, monStates, field, allySide, oppSide]);
+  }, [allies, opponents, monStates, field, allySide, oppSide, allySlots, oppSlots]);
+
+  const ally0  = allies[0];
+  const ally1  = allies[1];
+  const opp0   = opponents[0];
+  const opp1   = opponents[1];
+  const stateA0 = ally0 ? (monStates[ally0.id] ?? makeMonState(ally0)) : null;
+  const stateA1 = ally1 ? (monStates[ally1.id] ?? makeMonState(ally1)) : null;
+  const stateO0 = opp0  ? (monStates[opp0.id]  ?? makeMonState(opp0))  : null;
+  const stateO1 = opp1  ? (monStates[opp1.id]  ?? makeMonState(opp1))  : null;
 
   return (
     <div className="app">
@@ -102,10 +163,24 @@ export default function App() {
 
         <div className="battlefield">
           <div className="bf-ally-team">
-            <TeamPreview side="ally" label="ALLY TEAM" roster={INITIAL_ALLY_TEAM} onField={allies.map(a => a.name)} />
+            <PokemonSlotPicker
+              slots={allySlots}
+              onSelect={(i, slug, name) => handleSlotSelect(i, slug, name, 'ally', setAllySlots, setAllies, true)}
+              onClear={i => handleSlotClear(i, setAllySlots, setAllies)}
+              pokemonList={pokemonList}
+              label="ALLY TEAM"
+              side="ally"
+            />
           </div>
           <div className="bf-opp-team">
-            <TeamPreview side="opponent" label="OPP TEAM" roster={INITIAL_OPP_TEAM} onField={opponents.map(o => o.name)} />
+            <PokemonSlotPicker
+              slots={oppSlots}
+              onSelect={(i, slug, name) => handleSlotSelect(i, slug, name, 'opp', setOppSlots, setOpponents, false)}
+              onClear={i => handleSlotClear(i, setOppSlots, setOpponents)}
+              pokemonList={pokemonList}
+              label="OPP TEAM"
+              side="opponent"
+            />
           </div>
 
           <div className="bf-ally-side">
@@ -117,20 +192,20 @@ export default function App() {
 
           <div className="bf-ally-slot1">
             <PokemonCard
-              mon={allies[0]} side="ally" slot={1}
-              state={monStates[allies[0].id]}
-              onUpdate={p => updateMon(allies[0].id, p)}
-              selectedMoveIdx={activeAttacker === allies[0].id ? selectedMove : null}
-              onSelectMove={i => { setActiveAttacker(allies[0].id); setSelectedMove(i); }}
-              isActive={activeAttacker === allies[0].id}
-              onSetActive={() => setActiveAttacker(allies[0].id)}
+              mon={ally0} side="ally" slot={1}
+              state={stateA0}
+              onUpdate={p => ally0 && updateMon(ally0.id, p)}
+              selectedMoveIdx={activeAttacker === ally0?.id ? selectedMove : null}
+              onSelectMove={i => { setActiveAttacker(ally0?.id); setSelectedMove(i); }}
+              isActive={activeAttacker === ally0?.id}
+              onSetActive={() => setActiveAttacker(ally0?.id)}
             />
           </div>
           <div className="bf-opp-slot1">
             <PokemonCard
-              mon={opponents[0]} side="opponent" slot={1}
-              state={monStates[opponents[0].id]}
-              onUpdate={p => updateMon(opponents[0].id, p)}
+              mon={opp0} side="opponent" slot={1}
+              state={stateO0}
+              onUpdate={p => opp0 && updateMon(opp0.id, p)}
               selectedMoveIdx={null} onSelectMove={() => {}}
               isActive={false} onSetActive={() => {}}
             />
@@ -142,20 +217,20 @@ export default function App() {
 
           <div className="bf-ally-slot2">
             <PokemonCard
-              mon={allies[1]} side="ally" slot={2}
-              state={monStates[allies[1].id]}
-              onUpdate={p => updateMon(allies[1].id, p)}
-              selectedMoveIdx={activeAttacker === allies[1].id ? selectedMove : null}
-              onSelectMove={i => { setActiveAttacker(allies[1].id); setSelectedMove(i); }}
-              isActive={activeAttacker === allies[1].id}
-              onSetActive={() => setActiveAttacker(allies[1].id)}
+              mon={ally1} side="ally" slot={2}
+              state={stateA1}
+              onUpdate={p => ally1 && updateMon(ally1.id, p)}
+              selectedMoveIdx={activeAttacker === ally1?.id ? selectedMove : null}
+              onSelectMove={i => { setActiveAttacker(ally1?.id); setSelectedMove(i); }}
+              isActive={activeAttacker === ally1?.id}
+              onSetActive={() => setActiveAttacker(ally1?.id)}
             />
           </div>
           <div className="bf-opp-slot2">
             <PokemonCard
-              mon={opponents[1]} side="opponent" slot={2}
-              state={monStates[opponents[1].id]}
-              onUpdate={p => updateMon(opponents[1].id, p)}
+              mon={opp1} side="opponent" slot={2}
+              state={stateO1}
+              onUpdate={p => opp1 && updateMon(opp1.id, p)}
               selectedMoveIdx={null} onSelectMove={() => {}}
               isActive={false} onSetActive={() => {}}
             />
@@ -164,7 +239,7 @@ export default function App() {
       </div>
 
       <div className="side-col">
-        <AnalysisPanel buildPayload={buildPayload} allies={allies} field={field} />
+        <AnalysisPanel buildPayload={buildPayload} allies={allies.filter(Boolean)} field={field} />
       </div>
     </div>
   );

@@ -194,4 +194,17 @@ select, input { font-family: inherit; color: var(--text); }
 ::-webkit-scrollbar-thumb { background:var(--border); border-radius:4px; }
 ::-webkit-scrollbar-thumb:hover { background:var(--border-strong); }
 
+/* SLOT PICKER */
+.slot-add-btn { display:inline-flex; align-items:center; justify-content:center; width:26px; height:20px; border-radius:99px; background:var(--surface-2); border:1.5px dashed var(--border-soft); font-size:14px; font-weight:700; color:var(--text-faint); transition:all .12s; }
+.slot-add-btn:hover { border-color:var(--lime); color:var(--lime); background:var(--lime-soft); }
+.slot-clear-btn { display:inline-flex; align-items:center; justify-content:center; width:13px; height:13px; border-radius:50%; background:var(--surface-3); border:none; color:var(--text-faint); font-size:10px; line-height:1; flex-shrink:0; margin-left:2px; cursor:pointer; }
+.slot-clear-btn:hover { background:var(--bad); color:var(--text); }
+.slot-dropdown { position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:200; background:var(--surface-2); border:1.5px solid var(--border); border-radius:12px; padding:6px; display:flex; flex-direction:column; gap:4px; box-shadow:0 8px 32px rgba(0,0,0,.5); }
+.slot-search { background:var(--surface); border:1px solid var(--border-soft); border-radius:8px; padding:5px 9px; font-size:11px; color:var(--text); width:100%; outline:none; }
+.slot-search:focus { border-color:var(--border-strong); }
+.slot-list { overflow-y:auto; max-height:180px; display:flex; flex-direction:column; }
+.slot-option { padding:4px 9px; border-radius:6px; font-size:10.5px; color:var(--text-dim); background:none; text-align:left; width:100%; transition:background .1s,color .1s; }
+.slot-option:hover { background:var(--surface-3); color:var(--text); }
+.slot-no-results { padding:8px; text-align:center; color:var(--text-faint); font-size:10.5px; }
+
 @media (max-width:1100px) { .app { grid-template-columns:1fr; } .side-col { position:relative; height:auto; border-left:none; border-top:1px solid var(--border); } }
