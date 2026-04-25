@@ -6,6 +6,7 @@ A competitive advisor for **Pokémon Champions** — a doubles VGC format. Built
 
 - Recommends competitive movesets, items, abilities, and EV spreads for any legal Pokémon
 - Analyzes a full 12-Pokémon team preview (your 6 vs opponent's 6) and recommends which 4 to bring, who to lead, and predicts the opponent's gameplan
+- Gives turn-by-turn battle recommendations from a structured 2v2 field state — pre-computes a full damage matrix (including spread move friendly fire) before asking Claude for the best action
 - Runs live damage calculations via the Smogon calc to verify KO thresholds before making recommendations
 - Pulls expert strategy from top VGC player commentary via RAG retrieval (ChromaDB)
 - Validates moveset output with a prompt eval suite — code-based and model-based grading
@@ -16,7 +17,7 @@ A competitive advisor for **Pokémon Champions** — a doubles VGC format. Built
 |-------|---------|--------|
 | 1 | Single Pokémon moveset suggestion | ✅ Done |
 | 2 | 12-Pokémon team preview → which 4 to bring, lead pair, opponent prediction | ✅ Done |
-| 3 | 2v2 field state → turn-by-turn battle analysis | Planned |
+| 3 | 2v2 field state → turn-by-turn battle analysis | ✅ Done |
 | 4 | FastAPI backend + React web app | Planned |
 | 5 | React Native iOS app | Planned |
 
@@ -49,6 +50,9 @@ python scripts/moveset_suggest.py "Mr. Rime"
 python scripts/team_preview.py \
   "Umbreon,Ceruledge,Altaria,Glimmora,Gallade,Floette" \
   "Cofagrigus,Camerupt,Wyrdeer,Skeledirge,Beartic,Tauros"
+
+# Turn-by-turn battle advisor — pass a battle state JSON
+python scripts/battle_advisor.py data/battle_states/example.json
 
 # Run the prompt eval suite
 python scripts/eval_moveset.py                  # full eval with model and code grading
@@ -96,6 +100,30 @@ Final response           XML: bring 4, lead 2, back 2, opponent prediction, cont
 Parse + display          Rich terminal panels
 ```
 
+**Phase 3 — Turn-by-turn battle advisor**
+```
+Battle state JSON        turn, your_active (2), opponent_active (2), back (2+2), field
+     │
+     ▼
+Load legal data          moves + abilities + base stats for all active Pokémon
+     │
+     ▼
+RAG retrieval            ChromaDB → expert context for each active Pokémon
+     │
+     ▼
+Pre-compute damage       Your moves × opponent targets (all combos)
+matrix                   Spread moves × partner (friendly fire flagged)
+     │                   Opponent known moves × your active (threat assessment)
+     ▼
+Single Claude call       Full damage matrix in prompt — no tool use loop needed
+     │
+     ▼
+Final response           XML: action_1, action_2, switch options, priority_order,
+     │                   threat_assessment, contingency, reasoning
+     ▼
+Parse + display          Rich terminal: recommendation panel + damage matrix table
+```
+
 ## Data
 
 All data is pre-built and committed. To rebuild from scratch:
@@ -116,6 +144,7 @@ python scripts/fetch_champions_moves.py
 | `data/champions/ev_templates.json` | Generated | 4 EV presets per species for damage calc |
 | `data/pokeapi/base_stats.json` | PokeAPI | Base stats for all Pokémon + megas |
 | `data/smogon/gen9vgc.json` | Smogon | Competitive sets filtered to legal items |
+| `data/battle_states/example.json` | Manual | Sample battle state for Phase 3 |
 | `data/chromadb/` | Local | ChromaDB vector store (~11MB) |
 
 ## Pokémon Champions Format Notes

@@ -37,14 +37,14 @@ bash scripts/setup_node.sh
 
 ## Project Direction
 
-Building incrementally toward a full VGC battle advisor following the Anthropic Claude API Coursera course structure. Current phase: team preview (12-Pokemon analysis with damage calc tool use).
+Building incrementally toward a full VGC battle advisor following the Anthropic Claude API Coursera course structure. Current phase: turn-by-turn battle analysis.
 
 Completed phases:
 1. Single Pokemon moveset suggestion ✅
 2. 12-Pokemon team preview — which 4 to bring, lead pair, back pair, opponent gameplan prediction ✅
+3. 2v2 field state → turn-by-turn battle analysis ✅
 
 Planned phases:
-3. 2v2 field state → turn-by-turn battle analysis
 4. FastAPI backend + React frontend
 5. iOS app via React Native
 
@@ -53,6 +53,7 @@ Planned phases:
 ### Scripts (`scripts/`)
 - `moveset_suggest.py` — Phase 1 core: takes a species name, loads legal data, queries ChromaDB for relevant player commentary (RAG), asks Claude for a moveset recommendation with XML structured output
 - `team_preview.py` — Phase 2 core: takes two teams of 6, loads data + RAG for all 12, runs Claude tool use with damage calc to recommend which 4 to bring, lead pair, back pair, and opponent gameplan prediction
+- `battle_advisor.py` — Phase 3 core: takes a structured JSON battle state, pre-computes a full damage matrix (your moves × opponent targets, spread move friendly fire, opponent threats), then asks Claude for turn-by-turn action recommendations with switch considerations
 - `generate_ev_templates.py` — Generates `data/champions/ev_templates.json` with 4 EV presets per species (max_offense, max_bulk, trick_room, max_speed) used by the damage calc tool
 - `eval_moveset.py` — Eval runner: runs all 15 eval dataset Pokemon through the full pipeline (including RAG), grades with code-based + model-based checks, saves timestamped results for baseline comparison
 - `fetch_champions_data.py` — Scrapes Serebii for legal Pokemon + items, fetches base stats from PokeAPI for all species + forms/megas, filters Smogon sets to legal items
@@ -73,6 +74,7 @@ Planned phases:
 - `eval/moveset_eval_dataset.json` — 15 Pokemon test cases with expected grading criteria
 - `eval/results/` — Timestamped eval run results (gitignored, re-runnable)
 - `transcripts/<youtuber>/` — VGC player video transcripts for RAG (gitignored, personal)
+- `battle_states/example.json` — Sample Phase 3 battle state (Garchomp+Incineroar vs Torkoal+Venusaur, Sun active)
 - `chromadb/` — Persisted ChromaDB vector store (committed to repo, ~11MB)
 
 ## Key Conventions

@@ -5,7 +5,6 @@ Given both players' full teams of 6, recommends which 4 to bring,
 which 2 to lead, which 2 to keep in back, and predicts the opponent's
 likely gameplan. Uses Claude tool use to run damage calculations via
 the Node calc bridge.
-
 Usage:
     python scripts/team_preview.py \
         "Garchomp,Incineroar,Urshifu,Rillaboom,Arcanine,Tornadus" \
