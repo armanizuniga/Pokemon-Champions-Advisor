@@ -168,11 +168,17 @@ export default function App() {
     const monToPayload = (mon, state) => ({
       species:    mon.name,
       hp_percent: state.hp / mon.stats.hp,
-      item:       state.item   || null,
+      item:       state.item    || null,
       ability:    state.ability || null,
+      nature:     state.nature  || null,
       status:     state.status !== 'none' ? state.status : null,
       boosts:     state.stages,
-      moves:      (state.selectedMoves || []).filter(Boolean).map(m => m.name),
+      evs:        state.evs || { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 },
+      volatiles:  state.volatiles || [],
+      moves:      (state.selectedMoves || []).filter(Boolean).map(m => ({
+        name: m.name,
+        crit: m.crit || false,
+      })),
     });
 
     const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -192,6 +198,7 @@ export default function App() {
         weather:                field.weather !== 'none' ? cap(field.weather) : null,
         terrain:                field.terrain !== 'none' ? cap(field.terrain) : null,
         trick_room:             field.trickRoom,
+        gravity:                field.gravity,
         trick_room_turns:       0,
         tailwind_your_side:     allySide.tailwind,
         tailwind_your_turns:    0,

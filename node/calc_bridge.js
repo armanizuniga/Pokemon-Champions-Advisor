@@ -59,7 +59,7 @@ function runCalc(request) {
   try {
     const attacker = buildPokemon(request.attacker);
     const defender = buildPokemon(request.defender);
-    const move = new Move(gen, request.move);
+    const move = new Move(gen, request.move, { isCrit: request.is_crit || false });
     const field = buildField(request.field ?? {});
 
     const result = calculate(gen, attacker, defender, move, field);

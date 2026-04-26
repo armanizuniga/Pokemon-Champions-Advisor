@@ -404,14 +404,17 @@ def retrieve_rag_context(species: str) -> list[str]:
 # ── Damage matrix ──────────────────────────────────────────────────────────────
 
 def _pokemon_calc_obj(p: dict, data: dict, side: str) -> dict:
-    template = "max_offense" if side == "attacker" else "max_bulk"
-    evs      = data.get("ev_templates", {}).get(template, {})
+    # Prefer actual EVs/SP from the payload; fall back to template estimates
+    evs = p.get("evs") or data.get("ev_templates", {}).get(
+        "max_offense" if side == "attacker" else "max_bulk", {}
+    )
     return {
         "name":       p["species"],
         "species":    p["species"],
         "level":      50,
         "item":       p.get("item"),
         "ability":    p.get("ability"),
+        "nature":     p.get("nature"),
         "evs":        evs,
         "boosts":     p.get("boosts") or {},
         "hp_percent": p.get("hp_percent", 1.0),
@@ -434,19 +437,20 @@ def build_damage_matrix(state: dict, all_data: dict) -> tuple[list[dict], list[d
     your_tw = field.get("tailwind_your_side", False)
     opp_tw  = field.get("tailwind_opponent_side", False)
 
-    def _add(attacker_p, defender_p, move, friendly_fire, atk_tw, def_tw, side):
+    def _add(attacker_p, defender_p, move_name, is_crit, friendly_fire, atk_tw, def_tw, side):
         atk_slug = name_to_slug(attacker_p["species"])
         def_slug = name_to_slug(defender_p["species"])
         requests.append({
             "attacker": _pokemon_calc_obj(attacker_p, all_data.get(atk_slug, {}), "attacker"),
             "defender": _pokemon_calc_obj(defender_p, all_data.get(def_slug, {}), "defender"),
-            "move":     move,
+            "move":     move_name,
+            "is_crit":  is_crit,
             "field":    {**base_field, "tailwind_attacker": atk_tw, "tailwind_defender": def_tw},
         })
         metas.append({
             "attacker":      attacker_p["species"],
             "defender":      defender_p["species"],
-            "move":          move,
+            "move":          move_name,
             "friendly_fire": friendly_fire,
             "side":          side,
         })
@@ -456,22 +460,29 @@ def build_damage_matrix(state: dict, all_data: dict) -> tuple[list[dict], list[d
     def _is_damaging(move_name: str) -> bool:
         return move_meta.get(move_name, {}).get("category") in ("Physical", "Special")
 
+    def _unpack(move_obj) -> tuple[str, bool]:
+        if isinstance(move_obj, dict):
+            return move_obj["name"], move_obj.get("crit", False)
+        return move_obj, False
+
     for i, attacker in enumerate(your_active):
-        partner = your_active[1 - i]
-        for move in attacker.get("moves", []):
-            if not _is_damaging(move):
+        partner = your_active[1 - i] if len(your_active) > 1 else None
+        for move_obj in attacker.get("moves", []):
+            move_name, is_crit = _unpack(move_obj)
+            if not _is_damaging(move_name):
                 continue
             for defender in opp_active:
-                _add(attacker, defender, move, False, your_tw, opp_tw, "your")
-            if move.lower() in SPREAD_ALL_ADJACENT:
-                _add(attacker, partner, move, True, your_tw, your_tw, "your")
+                _add(attacker, defender, move_name, is_crit, False, your_tw, opp_tw, "your")
+            if partner and move_name.lower() in SPREAD_ALL_ADJACENT:
+                _add(attacker, partner, move_name, is_crit, True, your_tw, your_tw, "your")
 
     for attacker in opp_active:
-        for move in attacker.get("moves", []):
-            if not _is_damaging(move):
+        for move_obj in attacker.get("moves", []):
+            move_name, is_crit = _unpack(move_obj)
+            if not _is_damaging(move_name):
                 continue
             for defender in your_active:
-                _add(attacker, defender, move, False, opp_tw, your_tw, "opponent")
+                _add(attacker, defender, move_name, is_crit, False, opp_tw, your_tw, "opponent")
 
     return requests, metas
 
@@ -523,28 +534,45 @@ def build_user_message(state: dict, all_data: dict, rag: dict[str, list[str]],
 
     lines.append("<board_state>")
 
+    def _move_names(moves_raw: list) -> list[str]:
+        return [m["name"] if isinstance(m, dict) else m for m in moves_raw]
+
+    def _crit_moves(moves_raw: list) -> list[str]:
+        return [m["name"] for m in moves_raw if isinstance(m, dict) and m.get("crit")]
+
     lines.append("\n### Your Active Pokémon")
     for p in state["your_active"]:
-        status = p.get("status") or "—"
-        boosts = {k: v for k, v in (p.get("boosts") or {}).items() if v != 0}
+        status    = p.get("status") or "—"
+        boosts    = {k: v for k, v in (p.get("boosts") or {}).items() if v != 0}
+        moves_raw = p.get("moves", [])
+        crits     = _crit_moves(moves_raw)
+        volatiles = p.get("volatiles") or []
         lines.append(
             f"- **{p['species']}** | HP: {int(p.get('hp_percent', 1.0)*100)}% | "
             f"Item: {p.get('item') or '?'} | Ability: {p.get('ability') or '?'} | "
+            f"Nature: {p.get('nature') or '?'} | "
             f"Status: {status} | Boosts: {boosts or 'none'}"
         )
-        lines.append(f"  Moves: {', '.join(p.get('moves', []))}")
+        lines.append(f"  Moves: {', '.join(_move_names(moves_raw))}")
+        if crits:
+            lines.append(f"  Crit moves: {', '.join(crits)}")
+        if volatiles:
+            lines.append(f"  Volatile conditions: {', '.join(volatiles)}")
 
     lines.append("\n### Opponent's Active Pokémon")
     for p in state["opponent_active"]:
-        status = p.get("status") or "—"
-        boosts = {k: v for k, v in (p.get("boosts") or {}).items() if v != 0}
-        moves  = p.get("moves") or []
+        status    = p.get("status") or "—"
+        boosts    = {k: v for k, v in (p.get("boosts") or {}).items() if v != 0}
+        moves_raw = p.get("moves") or []
+        volatiles = p.get("volatiles") or []
         lines.append(
             f"- **{p['species']}** | HP: {int(p.get('hp_percent', 1.0)*100)}% | "
             f"Item: {p.get('item') or 'unknown'} | Ability: {p.get('ability') or 'unknown'} | "
             f"Status: {status} | Boosts: {boosts or 'none'}"
         )
-        lines.append(f"  Known Moves: {', '.join(moves) if moves else 'none revealed'}")
+        lines.append(f"  Known Moves: {', '.join(_move_names(moves_raw)) if moves_raw else 'none revealed'}")
+        if volatiles:
+            lines.append(f"  Volatile conditions: {', '.join(volatiles)}")
 
     lines.append("\n### Your Back Pokémon (available to switch in)")
     for p in state.get("your_back", []):
@@ -560,6 +588,8 @@ def build_user_message(state: dict, all_data: dict, rag: dict[str, list[str]],
     tr   = field.get("trick_room", False)
     tr_t = field.get("trick_room_turns", 0)
     lines.append(f"- Trick Room: {'Active (' + str(tr_t) + ' turns left)' if tr else 'Inactive'}")
+    if field.get("gravity"):
+        lines.append("- Gravity: Active (ground-type moves hit Flying-types, immunity to levitate, all grounded)")
     your_tw = field.get("tailwind_your_side", False)
     opp_tw  = field.get("tailwind_opponent_side", False)
     lines.append(f"- Tailwind (your side): {'Active (' + str(field.get('tailwind_your_turns', 0)) + ' turns)' if your_tw else 'Inactive'}")
