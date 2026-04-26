@@ -16,6 +16,12 @@ function buildField(fieldData) {
   });
 }
 
+// Champions uses stat points (0-32 per stat). Convert to equivalent Gen 9 EVs
+// so the Gen 9 stat formula gives the same result: ev = min(sp * 8, 252)
+function spToEv(sp) {
+  return Math.min((sp ?? 0) * 8, 252);
+}
+
 function buildPokemon(data) {
   return new Pokemon(gen, data.species, {
     level: data.level ?? 50,
@@ -24,12 +30,12 @@ function buildPokemon(data) {
     nature: data.nature ?? "Hardy",
     evs: data.evs
       ? {
-          hp: data.evs.hp ?? 0,
-          atk: data.evs.atk ?? 0,
-          def: data.evs.def ?? 0,
-          spa: data.evs.spa ?? 0,
-          spd: data.evs.spd ?? 0,
-          spe: data.evs.spe ?? 0,
+          hp:  spToEv(data.evs.hp),
+          atk: spToEv(data.evs.atk),
+          def: spToEv(data.evs.def),
+          spa: spToEv(data.evs.spa),
+          spd: spToEv(data.evs.spd),
+          spe: spToEv(data.evs.spe),
         }
       : undefined,
     boosts: data.boosts

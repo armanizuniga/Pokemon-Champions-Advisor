@@ -21,23 +21,24 @@ def primary_offense(stats: dict) -> str:
 
 
 def build_templates(stats: dict) -> dict:
+    # Champions uses stat points (0-32 per stat, 64 total bank)
     off = primary_offense(stats)
 
     return {
         "max_offense": {
-            "hp": 4, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 252,
-            off: 252,
+            "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 32,
+            off: 32,
         },
         "max_bulk": {
-            "hp": 252, "atk": 0, "def": 128, "spa": 0, "spd": 128, "spe": 0,
+            "hp": 32, "atk": 0, "def": 16, "spa": 0, "spd": 16, "spe": 0,
         },
         "trick_room": {
-            "hp": 252, "atk": 0, "def": 0, "spa": 0, "spd": 4, "spe": 0,
-            off: 252,
+            "hp": 32, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0,
+            off: 32,
         },
         "max_speed": {
-            "hp": 4, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 252,
-            off: 252,
+            "hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 32,
+            off: 32,
         },
     }
 

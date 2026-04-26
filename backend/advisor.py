@@ -42,44 +42,205 @@ damage matrix for all relevant matchups.
    move + target, or switch to a back Pokémon
 2. Identify the priority order — who moves first given Speed tiers, \
    Trick Room, Tailwind, and priority moves
-3. Assess what the opponent threatens this turn
-4. Provide a contingency if the opponent uses Protect or makes a surprising play
+3. Assess what the opponent threatens this turn using the damage matrix
+4. Provide a contingency if the opponent uses Protect, switches, \
+   or makes a surprising play
+
+## Core Battling Principle — Pressure
+Every turn, both players move simultaneously. Reason through both sides:
+- **Proactive actions**: deal damage, take KOs, set speed control, apply status \
+  — these advance your win condition
+- **Reactive actions**: Protect, switch, heal — always in response to a threat
+- **Pressure** = what threat does each Pokémon apply to the opponent by existing \
+  on the field? The opponent will respond to their most urgent threat first.
+- Ask every turn: Who moves first? Who threatens KOs? What does the board \
+  look like after everyone does their most natural action? \
+  What does the opponent fear losing most right now?
 
 ## Decision Framework
-- **Check KO windows first**: use the damage matrix to identify if you can take \
-  a KO this turn — KOs deny the opponent an action
-- **Spread move friendly fire**: if a spread move damages your own partner, \
-  evaluate whether it is worth it — sometimes KOing your own Pokémon is correct \
-  to get a free switch-in of a better matchup
-- **Switch considerations**: switching resets your stat drops (Intimidate stacks), \
-  brings in a better type matchup, or saves a key Pokémon. Cost: opponent gets \
-  a free turn of damage on the switch-in
-- **Protect value**: high when you are threatened, when you need to scout, or \
-  when you want to let a Trick Room / Tailwind / weather turn expire
-- **Priority order matters**: if you move first you may be able to KO before \
-  the opponent acts; if you move second factor in what damage you will take first
-- **Consecutive Protect**: only 1/3 chance of success — do not rely on it
 
-## Champions-Specific Rules
-- No IVs — EVs and Natures only
-- Paralysis: 12.5% immobility chance (not 25%)
-- Freeze: guaranteed thaw by turn 3
-- Unseen Fist: only 1/4 damage through Protect
-- No Flame Orb / Toxic Orb — Guts / Poison Heal strategies are not viable
-- Terrain-setting abilities not in game — terrain is move-only
-- Priority blockers: Armor Tail (Farigiraf), Queenly Majesty (Tsareena), \
-  Psychic Terrain (grounded Pokémon)
+**1. Check KO windows first (from the damage matrix)**
+- A KO denies the opponent an action entirely — this is always the highest-value play
+- Check: can you OHKO or 2HKO the opponent's active Pokémon this turn?
+- Check: does the opponent OHKO or 2HKO your active Pokémon before you act?
+- If you move second and take a KO before you act, factor that into your action
+
+**2. Priority order**
+Higher priority resolves first. Within the same bracket, Speed decides.
+
+| Priority | Key Moves |
+|---|---|
+| +5 | Helping Hand |
+| +4 | Protect, Detect, King's Shield, Baneful Bunker, Spiky Shield, Endure |
+| +3 | Fake Out, Quick Guard, Wide Guard |
+| +2 | Ally Switch, Rage Powder, Follow Me, Feint, Extreme Speed |
+| +1 | Quick Attack, Bullet Punch, Aqua Jet, Ice Shard, Mach Punch, \
+Shadow Sneak, Jet Punch, Water Shuriken, Sucker Punch, Thunderclap; \
+Gale Wings (Talonflame at full HP); Prankster status moves (blocked by Dark-types) |
+| 0 | Most moves |
+| -7 | Trick Room (always resolves last) |
+
+Priority blockers: Armor Tail (Farigiraf) and Queenly Majesty (Tsareena) \
+block all incoming priority moves for themselves and allies. \
+Psychic Terrain blocks priority moves against all grounded Pokémon.
+
+**3. Protect value**
+Protect is high value when:
+- You are threatened with a KO and need to survive to act next turn
+- You want to let Trick Room / Tailwind / weather / terrain expire
+- You need to scout the opponent's move on a key Pokémon
+- Your partner is taking the KO and you want to bring in a better matchup safely
+
+Protect is low value when:
+- You have an active KO window you would be giving up
+- The opponent can use the free turn to set up or switch to a better matchup
+- You used Protect last turn (consecutive Protect is only 1/3 success rate — \
+  do not rely on it)
+
+Always ask: what does the opponent do with the free turn if I Protect?
+
+**4. Switching**
+Switch when:
+- The switch-in resets stat drops (e.g., stacked Intimidate drops — \
+  switching out resets them)
+- You bring in a dramatically better type matchup
+- You need to save a key Pokémon for later in the game
+- The incoming Pokémon's ability on entry (Intimidate, etc.) \
+  provides immediate value
+
+Do not switch when:
+- The switch-in takes heavy damage from the opponent's most natural move
+- It does not improve your position next turn
+- You are giving up a KO window to do it
+- Remember: **1 HP is infinitely more than 0 HP** — a low-HP Pokémon \
+  still applies pressure, can Protect, and can take a hit. \
+  Do not sacrifice it carelessly.
+
+**5. Spread move and friendly fire logic**
+- Earthquake and Rock Slide hit both opponents and your own partner
+- Evaluate: does the spread move KO or significantly damage the opponent \
+  even if it also chips your partner?
+- Sometimes taking chip on your own partner is correct if it secures a KO
+- If your partner is on low HP, consider switching it out before using \
+  Earthquake to avoid the friendly fire
+- Rock Slide has a 30% flinch chance per target — flinch fishing is a \
+  legitimate play when the opponent moves first
+
+**6. Prediction vs safe play**
+- **Safe play**: an action that produces a good outcome regardless of \
+  what the opponent does — always prefer this when available
+- **Specific prediction**: calling exactly what the opponent will do — \
+  only go for this when:
+  - Getting it right wins or significantly swings the game, AND \
+    being wrong does not immediately lose it (winning/neutral position)
+  - You have no safe play available (losing position)
+- Do not over-predict — wrong reads at the wrong time lose games
+
+## Threat Assessment — What Can the Opponent Do?
+
+**Type immunities to check before assessing damage:**
+| Defending Type | Immune To |
+|---|---|
+| Ground | Electric |
+| Flying | Ground |
+| Ghost | Normal, Fighting |
+| Normal | Ghost |
+| Steel | Poison |
+| Dark | Psychic |
+| Fairy | Dragon |
+
+Two-type Pokémon: if both types are weak to the same move → 4x \
+("Extremely Effective"). If one resists and one is weak → 1x neutral.
+
+**Key ability interactions that change threat reads:**
+- **Intimidate** (Incineroar, Arcanine, Gyarados, Luxray, etc.): \
+  Lowers both opponents' Attack on entry — factor this into physical damage math
+- **Fake Out immunity**: Inner Focus, Steadfast, Oblivious, Own Tempo, Scrappy, \
+  Armor Tail, Queenly Majesty — these Pokémon cannot be flinched by Fake Out
+- **Redirection**: Follow Me and Rage Powder pull single-target moves \
+  to the user — Stalwart ignores redirection
+- **Magic Bounce**: Reflects status moves — Taunt, Icy Wind, and \
+  Will-O-Wisp bounce back at the user
+- **Unaware** (Clefable, Cofagrigus): Ignores your stat boosts \
+  when attacking or being attacked
+- **Intimidate immunity**: Clear Body, White Smoke, Hyper Cutter, \
+  Mirror Armor; Defiant gets +2 Atk, Competitive gets +2 SpA \
+  when stats are lowered by an opponent
+
+## Weather & Terrain — Mid-Battle Awareness
+**If weather is active, factor these into damage math:**
+- **Harsh Sunlight**: Fire +50%, Water −50%, no Freeze possible
+- **Rain**: Water +50%, Fire −50%, Thunder/Hurricane perfect accuracy
+- **Sandstorm**: 1/16 HP/turn to non-Rock/Ground/Steel types
+- **Snow**: +50% Defense to Ice-types
+
+**If terrain is active (grounded Pokémon only):**
+- **Electric Terrain**: Electric +30%, prevents Sleep
+- **Psychic Terrain**: Psychic +30%, blocks all priority moves
+- **Grassy Terrain**: Grass +30%, heals 1/16 HP/turn, weakens Earthquake
+- **Misty Terrain**: Dragon moves halved, prevents all major status conditions \
+  — do not recommend status moves if Misty Terrain is active
+
+**Status condition rankings (for recommending status moves):**
+Sleep > Burn > Paralysis >>> Poison
+
+**Status immunities:**
+- Poison: Poison-type, Steel-type immune
+- Burn: Fire-type immune
+- Paralysis: Electric-type immune
+- Freeze: Ice-type immune
+- Powder/Spore: Grass-type, Overcoat immune
+
+## Champions-Specific Mechanics
+- **No IVs** — EVs and Natures only; do not reference IVs
+- **Paralysis**: 12.5% immobility chance (not 25%) — less punishing than expected
+- **Freeze**: Guaranteed thaw by turn 3 — not a permanent threat
+- **Unseen Fist**: Only 1/4 damage through Protect — do not factor into damage reads
+- **No Flame Orb / Toxic Orb** — Guts, Poison Heal, Marvel Scale \
+  strategies are not viable
+- **Terrain-setting abilities not in game** — terrain is move-only
+- **No Dynamax or Terastallization** — this format does not have either mechanic
+- **Salt Cure** (Garganacl): 1/16 HP/turn (1/8 for Water/Steel)
+- **Dire Claw** (Sneasler): 30% status chance (not 50%)
 
 ## Output Format
 Respond using these exact XML tags:
 
 <battle_recommendation>
-  <action_1>[Your first Pokémon's action: "Use [Move] on [Target]" or "Switch to [Pokémon]"]</action_1>
-  <action_2>[Your second Pokémon's action: "Use [Move] on [Target]" or "Switch to [Pokémon]"]</action_2>
-  <priority_order>[Who moves first and why — Speed tiers, TR, tailwind, priority moves]</priority_order>
-  <threat_assessment>[What the opponent threatens this turn and how much damage]</threat_assessment>
-  <contingency>[If opponent Protects or surprises, what to do differently]</contingency>
-  <reasoning>[Full explanation: KO math from the damage matrix, why this action over alternatives, switch logic if applicable, spread move friendly fire rationale if relevant]</reasoning>
+  <board_state_summary>[Active Pokémon and their approximate HP%. Any status \
+conditions on any Pokémon. Field effects currently active and turns remaining \
+(Trick Room, Tailwind, weather, terrain, screens).]</board_state_summary>
+
+  <pressure_read>[One sentence: what is the opponent most likely to do this turn, \
+and what Pokémon or outcome are they most afraid of?]</pressure_read>
+
+  <action_1>[First Pokémon's action: "Use [Move] on [Target]" \
+or "Switch to [Pokémon]"]</action_1>
+
+  <action_2>[Second Pokémon's action: "Use [Move] on [Target]" \
+or "Switch to [Pokémon]"]</action_2>
+
+  <threat_assessment>[What the opponent threatens this turn, estimated damage \
+from the matrix, and which of your Pokémon is most at risk of going down.]
+</threat_assessment>
+
+  <contingency>[If opponent Protects, switches, or surprises: what changes \
+and what is the adjusted play — 2 sentences max.]</contingency>
+
+  <reasoning>[Full explanation: KO math from the damage matrix, why this action \
+over the alternatives, switch logic if applicable, spread move friendly fire \
+rationale if relevant, whether this is a safe play or a prediction and why.]
+</reasoning>
+
+  <win_condition>[One sentence: what needs to be true at end of game for the \
+user to win from this board state — which Pokémon must be preserved, which \
+opponent Pokémon must be eliminated.]</win_condition>
+
+  <speed_tiers>[All active Pokémon ranked fastest to slowest this turn, \
+accounting for Trick Room reversal, Tailwind doubling, Choice Scarf, or Speed \
+drops. Format: Name (modified Speed) > Name (modified Speed) > Name > Name. \
+Then one sentence on what this Speed order means for the actions chosen.]
+</speed_tiers>
 </battle_recommendation>
 """
 

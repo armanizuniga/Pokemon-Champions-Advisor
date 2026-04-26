@@ -31,10 +31,10 @@ const NATURE_MODS = {
   Sassy:   { spd:1.1, spe:0.9 }, Careful: { spd:1.1, spa:0.9 },
 };
 
-function computeStat(key, base, ev, mult = 1.0) {
-  const evFloor = Math.floor(ev / 4);
-  if (key === 'hp') return Math.floor((2 * base + evFloor) / 2 + 60);
-  return Math.floor((Math.floor((2 * base + evFloor) / 2) + 5) * mult);
+// Champions formula: HP = base + sp + 75, other = floor(n * (base + sp + 20))
+function computeStat(key, base, sp, mult = 1.0) {
+  if (key === 'hp') return base + sp + 75;
+  return Math.floor(mult * (base + sp + 20));
 }
 
 // ── Searchable dropdown (items) ───────────────────────────────────────────────
@@ -203,13 +203,16 @@ export default function PokemonCard({
   const [expanded, setExpanded] = useState(false);
   if (!mon || !state) return <div className="poke-card empty">— empty —</div>;
 
+  const SP_MAX     = 32;
+  const SP_BANK    = 64;
+
   const base      = mon.baseStats || {};
   const evs       = state.evs || { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 };
   const totalEvs  = Object.values(evs).reduce((a, b) => a + b, 0);
-  const remaining = 510 - totalEvs;
+  const remaining = SP_BANK - totalEvs;
 
   function setEv(key, val) {
-    const clamped = Math.min(252, Math.max(0, val));
+    const clamped = Math.min(SP_MAX, Math.max(0, val));
     const headroom = remaining + evs[key];
     const next = { ...evs, [key]: Math.min(clamped, headroom) };
     onUpdate({ evs: next });
@@ -292,9 +295,9 @@ export default function PokemonCard({
       {/* Stats: vertical with EV sliders + nature */}
       <div className="stats-block">
         <div className="ev-bank-row">
-          <span className="ev-bank-label">EVs</span>
+          <span className="ev-bank-label">SP</span>
           <span className="ev-bank-used mono">{totalEvs}</span>
-          <span className="ev-bank-sep">/510</span>
+          <span className="ev-bank-sep">/{SP_BANK}</span>
           <span className={`ev-bank-left mono ${remaining === 0 ? 'ev-full' : ''}`}>{remaining} left</span>
         </div>
         {(() => {
@@ -307,7 +310,7 @@ export default function PokemonCard({
             const barPct    = Math.round((computed / 200) * 100);
             const barColor  = side === 'ally' ? 'var(--ally)' : 'var(--enemy)';
             const natClass  = mult > 1 ? 'nat-up' : mult < 1 ? 'nat-down' : '';
-            const sliderMax = Math.min(252, ev + remaining);
+            const sliderMax = Math.min(SP_MAX, ev + remaining);
             return (
               <div key={k} className="stat-row">
                 <span className={`stat-row-label ${natClass}`}>{STAT_LABELS[k]}{mult > 1 ? ' ↑' : mult < 1 ? ' ↓' : ''}</span>

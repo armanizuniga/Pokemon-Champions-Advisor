@@ -33,6 +33,7 @@ CHROMADB_PATH = DATA / "chromadb"
 OUTPUT_DIR    = DATA / "prompt_improvements"
 MOVESET_SCRIPT  = ROOT / "scripts/moveset_suggest.py"
 PREVIEW_SCRIPT  = ROOT / "scripts/team_preview.py"
+ADVISOR_SCRIPT  = ROOT / "backend/advisor.py"
 CLAUDE_MD       = ROOT / "CLAUDE.md"
 KNOWLEDGE_BASE  = ROOT / "data/VGC_Pokemon_Champions_Knowledge_Base.md"
 
@@ -199,11 +200,11 @@ def synthesize_knowledge(batch_summaries: dict[str, str]) -> str:
     return response.content[0].text
 
 
-def improve_prompts(master_knowledge: str, moveset_prompt: str, preview_prompt: str, claude_md: str, knowledge_base: str) -> str:
-    """Pass 3: rewrite both system prompts using the master knowledge doc + Champions knowledge base."""
+def improve_prompts(master_knowledge: str, moveset_prompt: str, preview_prompt: str, advisor_prompt: str, claude_md: str, knowledge_base: str) -> str:
+    """Pass 3: rewrite all three system prompts using the master knowledge doc + Champions knowledge base."""
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=4096,
+        max_tokens=6000,
         messages=[{
             "role": "user",
             "content": (
@@ -220,14 +221,17 @@ def improve_prompts(master_knowledge: str, moveset_prompt: str, preview_prompt: 
                 f"<moveset_prompt>\n{moveset_prompt}\n</moveset_prompt>\n\n"
                 "## Current Team Preview Prompt\n"
                 f"<preview_prompt>\n{preview_prompt}\n</preview_prompt>\n\n"
+                "## Current Battle Advisor Prompt (turn-by-turn mid-battle analysis)\n"
+                f"<advisor_prompt>\n{advisor_prompt}\n</advisor_prompt>\n\n"
                 "Using both the knowledge base (Champions-specific rules, items, abilities, game changes) "
-                "and the expert knowledge (synthesized player strategy), rewrite both prompts to be more "
+                "and the expert knowledge (synthesized player strategy), rewrite all three prompts to be more "
                 "accurate and grounded. Prioritize the knowledge base for factual correctness (what is and "
                 "isn't in the game), and the expert knowledge for strategic depth. "
                 "For each change, briefly note what drove it.\n\n"
                 "Output exactly:\n"
                 "<improved_moveset_prompt>\n[full improved prompt]\n</improved_moveset_prompt>\n\n"
                 "<improved_preview_prompt>\n[full improved prompt]\n</improved_preview_prompt>\n\n"
+                "<improved_advisor_prompt>\n[full improved prompt]\n</improved_advisor_prompt>\n\n"
                 "<change_log>\n[bullet points: what changed in each prompt and what drove it]\n</change_log>"
             ),
         }],
@@ -253,16 +257,19 @@ def save_outputs(batch_summaries: dict, master_knowledge: str, raw_response: str
 
     moveset = extract_tag(raw_response, "improved_moveset_prompt")
     preview = extract_tag(raw_response, "improved_preview_prompt")
+    advisor = extract_tag(raw_response, "improved_advisor_prompt")
     changes = extract_tag(raw_response, "change_log")
 
     if moveset:
         (out / "improved_moveset_prompt.txt").write_text(moveset)
     if preview:
         (out / "improved_preview_prompt.txt").write_text(preview)
+    if advisor:
+        (out / "improved_advisor_prompt.txt").write_text(advisor)
     if changes:
         (out / "change_log.md").write_text(changes)
 
-    return out, moveset, preview, changes
+    return out, moveset, preview, advisor, changes
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -301,22 +308,24 @@ def main():
     console.print(f"\n[bold cyan]Pass 3[/bold cyan] — Rewriting system prompts", end=" ")
     moveset_prompt   = extract_system_prompt(MOVESET_SCRIPT)
     preview_prompt   = extract_system_prompt(PREVIEW_SCRIPT)
+    advisor_prompt   = extract_system_prompt(ADVISOR_SCRIPT)
     claude_md_text   = CLAUDE_MD.read_text()
     knowledge_base   = KNOWLEDGE_BASE.read_text() if KNOWLEDGE_BASE.exists() else ""
 
     if knowledge_base:
         console.print(f"[dim](+knowledge base)[/dim]", end=" ")
 
-    raw_response = improve_prompts(master_knowledge, moveset_prompt, preview_prompt, claude_md_text, knowledge_base)
+    raw_response = improve_prompts(master_knowledge, moveset_prompt, preview_prompt, advisor_prompt, claude_md_text, knowledge_base)
     console.print("[green]✓[/green]\n")
 
     # ── Save & display ────────────────────────────────────────────────────────
-    out_dir, moveset, preview, changes = save_outputs(
+    out_dir, moveset, preview, advisor, changes = save_outputs(
         batch_summaries, master_knowledge, raw_response, timestamp
     )
 
     console.print(Panel(changes or raw_response, title="[bold]Change Log[/bold]", border_style="green"))
     console.print(f"\n[dim]Outputs saved to {out_dir}/[/dim]")
+    console.print("[dim]Files: improved_moveset_prompt.txt, improved_preview_prompt.txt, improved_advisor_prompt.txt[/dim]")
     console.print("[dim]Review the files, then manually apply changes to the scripts.[/dim]")
 
 

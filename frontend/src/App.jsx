@@ -24,13 +24,14 @@ function makeMonState(mon) {
 
 function buildMonFromApiData(slug, name, apiData, side, loadMoves) {
   const b = apiData.base_stats || {};
+  // Champions formula at 0 SP: HP = base + 75, other = base + 20
   const stats = {
-    hp:  (b.hp  || 50) + 60,
-    atk: (b.atk || 50) + 5,
-    def: (b.def || 50) + 5,
-    spa: (b.spa || 50) + 5,
-    spd: (b.spd || 50) + 5,
-    spe: (b.spe || 50) + 5,
+    hp:  (b.hp  || 50) + 75,
+    atk: (b.atk || 50) + 20,
+    def: (b.def || 50) + 20,
+    spa: (b.spa || 50) + 20,
+    spd: (b.spd || 50) + 20,
+    spe: (b.spe || 50) + 20,
   };
   const moveDetails = apiData.move_details || [];
   const initialMoves = loadMoves
