@@ -215,13 +215,15 @@ export default function App() {
   const stateO0 = opp0  ? (monStates[opp0.id]  ?? makeMonState(opp0))  : null;
   const stateO1 = opp1  ? (monStates[opp1.id]  ?? makeMonState(opp1))  : null;
 
-  const visibleAllies = [ally0, ally1].filter(Boolean);
+  const visibleAllies    = [ally0, ally1].filter(Boolean);
+  const visibleOpponents = [opp0,  opp1].filter(Boolean);
 
   return (
     <div className="app">
       <div className="main-col">
 
         {/* Top bar */}
+
         <div className="topbar">
           <div className="topbar-brand-center">
             <div className="brand-name">Pokémon Champions Advisor</div>
@@ -320,8 +322,8 @@ export default function App() {
         </div>
       </div>
 
-      <div className="side-col">
-        <AnalysisPanel buildPayload={buildPayload} allies={visibleAllies} field={field} />
+      <div className="bottom-panel">
+        <AnalysisPanel buildPayload={buildPayload} allies={visibleAllies} opponents={visibleOpponents} field={field} />
       </div>
     </div>
   );

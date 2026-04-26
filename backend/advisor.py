@@ -21,6 +21,7 @@ ABILITIES_PATH    = DATA / "champions/abilities.json"
 ITEMS_PATH        = DATA / "champions/legal_items.json"
 BASE_STATS_PATH   = DATA / "pokeapi/base_stats.json"
 EV_TEMPLATES_PATH = DATA / "champions/ev_templates.json"
+MECHANICS_PATH    = DATA / "champions_mechanics.md"
 CHROMADB_PATH     = DATA / "chromadb"
 NODE_BRIDGE       = ROOT / "node/calc_bridge.js"
 RAG_TOP_K         = 2
@@ -615,23 +616,34 @@ def run_analysis(state: dict) -> dict:
     calc_results    = run_matrix(requests)
     matrix_text     = format_matrix_for_prompt(metas, calc_results)
 
+    mechanics = MECHANICS_PATH.read_text() if MECHANICS_PATH.exists() else ""
+    system = SYSTEM_PROMPT
+    if mechanics:
+        system = system.replace(
+            "## Output Format",
+            f"## Confirmed Mechanics & Corrections\n\n{mechanics}\n\n## Output Format",
+        )
+
     user_msg = build_user_message(state, all_data, rag, matrix_text)
     client   = anthropic.Anthropic()
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=2048,
-        system=SYSTEM_PROMPT,
+        system=system,
         messages=[{"role": "user", "content": user_msg}],
     )
     raw = response.content[0].text
 
     recommendation = {
-        "action_1":          _extract_tag(raw, "action_1"),
-        "action_2":          _extract_tag(raw, "action_2"),
-        "priority_order":    _extract_tag(raw, "priority_order"),
-        "threat_assessment": _extract_tag(raw, "threat_assessment"),
-        "contingency":       _extract_tag(raw, "contingency"),
-        "reasoning":         _extract_tag(raw, "reasoning"),
+        "board_state_summary": _extract_tag(raw, "board_state_summary"),
+        "pressure_read":       _extract_tag(raw, "pressure_read"),
+        "action_1":            _extract_tag(raw, "action_1"),
+        "action_2":            _extract_tag(raw, "action_2"),
+        "speed_tiers":         _extract_tag(raw, "speed_tiers"),
+        "threat_assessment":   _extract_tag(raw, "threat_assessment"),
+        "contingency":         _extract_tag(raw, "contingency"),
+        "reasoning":           _extract_tag(raw, "reasoning"),
+        "win_condition":       _extract_tag(raw, "win_condition"),
     }
 
     damage_matrix = []
