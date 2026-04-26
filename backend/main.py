@@ -17,7 +17,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.advisor import load_pokemon_data, load_items, list_pokemon, run_analysis
+from backend.advisor import load_pokemon_data, load_items, load_move_data, list_pokemon, run_analysis
 
 app = FastAPI(title="Champions VGC Advisor", version="0.1.0")
 
@@ -78,6 +78,13 @@ async def get_pokemon(species: str):
 @app.get("/api/items")
 async def get_items():
     return load_items()
+
+
+# ── GET /api/move-data ────────────────────────────────────────────────────────
+
+@app.get("/api/move-data")
+async def get_move_data():
+    return load_move_data()
 
 
 # ── GET /api/health ───────────────────────────────────────────────────────────

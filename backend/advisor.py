@@ -16,6 +16,7 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 ROOT              = Path(__file__).parents[1]
 DATA              = ROOT / "data"
 MOVES_PATH        = DATA / "champions/moves.json"
+MOVE_DATA_PATH    = DATA / "champions/move_data.json"
 ABILITIES_PATH    = DATA / "champions/abilities.json"
 ITEMS_PATH        = DATA / "champions/legal_items.json"
 BASE_STATS_PATH   = DATA / "pokeapi/base_stats.json"
@@ -96,6 +97,19 @@ def _load_json(path: Path) -> dict:
     return _data_cache[str(path)]
 
 
+def load_move_data() -> dict:
+    return _load_json(MOVE_DATA_PATH)
+
+
+_ROTOM_FORM_MOVES: dict[str, str] = {
+    "rotom-heat":  "Overheat",
+    "rotom-wash":  "Hydro Pump",
+    "rotom-frost": "Blizzard",
+    "rotom-fan":   "Air Slash",
+    "rotom-mow":   "Leaf Storm",
+}
+
+
 def load_pokemon_data(species: str) -> dict:
     slug = name_to_slug(species)
 
@@ -104,8 +118,14 @@ def load_pokemon_data(species: str) -> dict:
     base_stats     = _load_json(BASE_STATS_PATH)
     ev_templates   = _load_json(EV_TEMPLATES_PATH)
 
-    moves     = moves_data.get(slug) or moves_data.get(slug.split("-")[0], [])
-    abilities = (
+    move_meta  = _load_json(MOVE_DATA_PATH)
+    moves      = list(moves_data.get(slug) or moves_data.get(slug.split("-")[0], []))
+    # Inject Rotom form signature move if not already present
+    if slug in _ROTOM_FORM_MOVES:
+        sig = _ROTOM_FORM_MOVES[slug]
+        if sig not in moves:
+            moves = [sig] + moves
+    abilities  = (
         abilities_data.get(slug)
         or abilities_data.get(slug + "-mega")
         or abilities_data.get(slug.split("-")[0], [])
@@ -113,10 +133,16 @@ def load_pokemon_data(species: str) -> dict:
     stats = base_stats.get(slug) or base_stats.get(slug.split("-")[0], {})
     evs   = ev_templates.get(slug) or ev_templates.get(slug.split("-")[0], {})
 
+    move_details = [
+        {"name": m, **(move_meta.get(m) or {"type": None, "category": None, "power": 0})}
+        for m in moves
+    ]
+
     return {
         "species":      species,
         "slug":         slug,
         "moves":        moves,
+        "move_details": move_details,
         "abilities":    abilities,
         "base_stats":   stats,
         "ev_templates": evs,
@@ -153,7 +179,7 @@ def _slug_to_name(slug: str) -> str:
 def list_pokemon() -> list[dict]:
     data = _load_json(BASE_STATS_PATH)
     return sorted(
-        [{"slug": slug, "name": _slug_to_name(slug)} for slug in data],
+        [{"slug": slug, "name": _slug_to_name(slug)} for slug in data if "gmax" not in slug],
         key=lambda x: x["name"],
     )
 
@@ -263,9 +289,16 @@ def build_damage_matrix(state: dict, all_data: dict) -> tuple[list[dict], list[d
             "side":          side,
         })
 
+    move_meta = _load_json(MOVE_DATA_PATH)
+
+    def _is_damaging(move_name: str) -> bool:
+        return move_meta.get(move_name, {}).get("category") in ("Physical", "Special")
+
     for i, attacker in enumerate(your_active):
         partner = your_active[1 - i]
         for move in attacker.get("moves", []):
+            if not _is_damaging(move):
+                continue
             for defender in opp_active:
                 _add(attacker, defender, move, False, your_tw, opp_tw, "your")
             if move.lower() in SPREAD_ALL_ADJACENT:
@@ -273,6 +306,8 @@ def build_damage_matrix(state: dict, all_data: dict) -> tuple[list[dict], list[d
 
     for attacker in opp_active:
         for move in attacker.get("moves", []):
+            if not _is_damaging(move):
+                continue
             for defender in your_active:
                 _add(attacker, defender, move, False, opp_tw, your_tw, "opponent")
 

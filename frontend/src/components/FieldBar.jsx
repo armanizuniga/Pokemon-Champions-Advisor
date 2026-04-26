@@ -22,10 +22,9 @@ function FieldToggle({ label, active, onClick }) {
   );
 }
 
-export function SideStateBar({ side, label, state, onUpdate }) {
+export function SideStateBar({ side, state, onUpdate }) {
   return (
     <div className={`side-state ${side}`}>
-      <span className="side-state-label">{label}</span>
       <FieldToggle label="Reflect"   active={state.reflect}      onClick={() => onUpdate({ reflect:      !state.reflect })} />
       <FieldToggle label="L. Screen" active={state.lightScreen}  onClick={() => onUpdate({ lightScreen:  !state.lightScreen })} />
       <FieldToggle label="Tailwind"  active={state.tailwind}     onClick={() => onUpdate({ tailwind:     !state.tailwind })} />
